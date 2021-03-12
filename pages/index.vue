@@ -580,9 +580,9 @@
                   <div>
                     <dt class="sr-only">Postal address</dt>
                     <dd>
-                      <p class="font-semibold text-slogan">Spencer Adams</p>
-                      <p class="font-semibold text-slogan">2919 Crossing Ct</p>
-                      <p class="font-semibold text-slogan">
+                      <p class="font-extrabold text-slogan">Spencer Adams</p>
+                      <p class="font-extrabold text-slogan">2919 Crossing Ct</p>
+                      <p class="font-extrabold text-slogan">
                         Champaign, IL 61822
                       </p>
                     </dd>
