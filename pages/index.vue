@@ -1,7 +1,7 @@
 <template>
-  <div class="min-h-screen antialiased bg-gray-50">
+  <div class="flex flex-col min-h-screen antialiased bg-gray-50">
     <nav class="bg-gray-50">
-      <div class="px-4 py-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div class="px-4 pt-6 pb-3 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="flex justify-between">
           <div class="flex flex-grow">
             <div class="flex flex-col justify-center flex-shrink-0">
@@ -24,15 +24,8 @@
                 </a>
               </div>
             </div>
-            <div class="items-center justify-center flex-grow hidden sm:flex">
-              <img
-                src="~/assets/img/me.png"
-                class="w-24 h-24 rounded-full"
-                alt="Spencer Adams"
-              />
-            </div>
             <div
-              class="items-center justify-center flex-grow hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8"
+              class="items-center justify-center flex-grow hidden sm:-my-px sm:ml-6 lg:flex sm:space-x-8"
             >
               <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
 
@@ -71,7 +64,7 @@
                 FREE CONSULTATION
               </a>
             </div>
-            <div class="items-center justify-center hidden sm:flex">
+            <div class="items-center justify-center hidden lg:flex">
               <button
                 class="px-3 py-1 mr-2 font-semibold text-gray-900 border-2 border-gray-900 hover:bg-black hover:text-white hover:border-black text-shadow"
               >
@@ -84,13 +77,14 @@
               </button>
             </div>
           </div>
-          <div class="flex items-center -mr-2 sm:hidden">
+          <div class="flex items-center -mr-2 lg:hidden">
             <!-- Mobile menu button -->
             <button
               type="button"
               class="inline-flex items-center justify-center p-2 text-gray-400 rounded-md bg-gray-50 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               aria-controls="mobile-menu"
               aria-expanded="false"
+              @click="toggle"
             >
               <span class="sr-only">Open main menu</span>
               <!--
@@ -139,7 +133,7 @@
       </div>
 
       <!-- Mobile menu, show/hide based on menu state. -->
-      <div id="mobile-menu" class="sm:hidden">
+      <div id="mobile-menu" :class="{ hidden: !opened }" class="lg:hidden">
         <div class="pb-3 space-y-1">
           <a
             class="block py-2 pl-3 pr-4 text-base font-medium text-blue-400 border-l-4 border-transparent hover:text-blue-600 hover:bg-gray-50 hover:border-gray-300"
@@ -185,12 +179,12 @@
           </a>
           <div class="flex items-center pt-6 pb-2 pl-3 pr-4">
             <button
-              class="flex-grow px-3 py-1 mr-2 font-semibold text-gray-900 border-2 border-gray-900 text-shadow"
+              class="flex-grow px-3 py-1 mr-2 font-semibold text-gray-600 border-2 border-gray-600 hover:text-gray-800 hover:border-gray-800 text-shadow"
             >
               BUY
             </button>
             <button
-              class="flex-grow px-3 py-1 font-semibold text-gray-900 border-2 border-gray-900 text-shadow"
+              class="flex-grow px-3 py-1 font-semibold text-gray-600 border-2 border-gray-600 hover:text-gray-800 hover:border-gray-800 text-shadow"
             >
               SELL
             </button>
@@ -199,13 +193,15 @@
       </div>
     </nav>
 
-    <div class="py-10">
+    <div class="flex-grow py-4">
       <main>
         <div>
           <!-- Hero card -->
           <div class="relative">
-            <div class="">
-              <div class="relative shadow-xl sm:overflow-hidden">
+            <div class="mx-auto max-w-screen-4xl">
+              <div
+                class="relative flex flex-col items-center justify-center shadow-2xl banner sm:overflow-hidden"
+              >
                 <div class="absolute inset-0">
                   <img
                     class="object-cover w-full h-full"
@@ -221,14 +217,14 @@
                   class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8"
                 >
                   <h1
-                    class="text-4xl font-extrabold tracking-tight text-center sm:text-5xl lg:text-6xl"
+                    class="text-3xl font-semibold tracking-tight text-center sm:text-5xl lg:text-6xl"
                   >
-                    <span class="block text-white text-shadow-md"
+                    <span class="block text-white text-shadow-lg"
                       >BRINGING YOU HOME</span
                     >
                   </h1>
                   <p
-                    class="max-w-lg mx-auto mt-6 text-2xl font-bold text-center text-white text-shadow-md sm:max-w-3xl"
+                    class="max-w-lg mx-auto mt-6 text-lg font-semibold text-center text-white sm:text-2xl text-shadow-lg sm:max-w-3xl"
                   >
                     Your Champaign Real Estate Expert
                   </p>
@@ -240,13 +236,13 @@
                     >
                       <a
                         href="#"
-                        class="flex items-center justify-center px-4 py-3 text-base font-bold text-white bg-white border-2 border-white rounded-md shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
+                        class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white rounded-md shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
                       >
                         BUY
                       </a>
                       <a
                         href="#"
-                        class="flex items-center justify-center px-4 py-3 text-base font-bold text-white bg-white border-2 border-white rounded-md shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
+                        class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white rounded-md shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
                       >
                         SELL
                       </a>
@@ -265,7 +261,18 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import { defineComponent, ref } from '@vue/composition-api'
 
-export default Vue.extend({})
+export default defineComponent({
+  setup() {
+    const opened = ref(false)
+
+    const toggle = () => (opened.value = !opened.value)
+
+    return {
+      opened,
+      toggle,
+    }
+  },
+})
 </script>

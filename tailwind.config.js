@@ -10,6 +10,11 @@ module.exports = {
         serif: ['Cinzel', ...defaultTheme.fontFamily.serif],
         slogan: ['Lato', ...defaultTheme.fontFamily.sans],
       },
+      maxWidth: {
+        'screen-3xl': '1792px',
+        'screen-4xl': '2048px',
+        'screen-5xl': '2304px',
+      },
     },
   },
   variants: {

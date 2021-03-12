@@ -2,3 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.banner {
+  height: calc(-145px + 90vh);
+}
