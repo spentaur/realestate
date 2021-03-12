@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col min-h-screen antialiased bg-gray-50">
-    <nav class="bg-gray-50">
+  <div class="flex flex-col min-h-screen antialiased bg-white">
+    <nav class="bg-white">
       <div class="px-4 pt-6 pb-3 mx-auto max-w-7xl sm:px-6 xl:px-8">
         <div class="flex justify-between">
           <div class="flex flex-grow">
@@ -41,13 +41,6 @@
                 class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700"
               >
                 CONTACT
-              </a>
-
-              <a
-                href="#areas-served"
-                class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700"
-              >
-                AREAS SERVED
               </a>
 
               <a
@@ -102,7 +95,7 @@
             <!-- Mobile menu button -->
             <button
               type="button"
-              class="inline-flex items-center justify-center p-2 text-gray-400 rounded-md bg-gray-50 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              class="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               aria-controls="mobile-menu"
               aria-expanded="false"
               @click="toggle"
@@ -157,16 +150,16 @@
       <div id="mobile-menu" :class="{ hidden: !opened }" class="xl:hidden">
         <div class="pb-3 space-y-1">
           <a
-            class="block py-2 pl-3 pr-4 text-base font-medium text-blue-400 border-l-4 border-transparent hover:text-blue-600 hover:bg-gray-50 hover:border-gray-300"
+            class="block py-2 pl-3 pr-4 text-base font-medium text-blue-400 border-l-4 border-transparent hover:text-blue-600 hover:bg-white hover:border-gray-300"
             href="https://teamgordon.net"
           >
             Team Gordon · RE/MAX Choice
           </a>
-          <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800" -->
+          <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-600 hover:bg-white hover:border-gray-300 hover:text-gray-800" -->
 
           <a
             href="#about-me"
-            class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800"
+            class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-white hover:border-gray-300 hover:text-gray-800"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -186,7 +179,7 @@
 
           <a
             href="#contact"
-            class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800"
+            class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-white hover:border-gray-300 hover:text-gray-800"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -206,29 +199,8 @@
           </a>
 
           <a
-            href="#areas-served"
-            class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              class="w-4 h-4 mr-4"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"
-              />
-            </svg>
-            Areas Served
-          </a>
-
-          <a
             href="#contact"
-            class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800"
+            class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-white hover:border-gray-300 hover:text-gray-800"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -249,7 +221,7 @@
 
           <a
             href="#"
-            class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800"
+            class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-white hover:border-gray-300 hover:text-gray-800"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -269,7 +241,7 @@
           </a>
           <a
             href="https://instagram.com/spenceradams.realestate"
-            class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800"
+            class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-white hover:border-gray-300 hover:text-gray-800"
           >
             <svg
               class="w-4 h-4 mr-4"
@@ -368,14 +340,14 @@
           </div>
           <div class="relative flex justify-center">
             <span
-              class="px-2 font-serif text-3xl text-gray-900 text-shadow-sm bg-gray-50"
+              class="px-2 font-serif text-3xl text-gray-900 bg-white text-shadow-sm"
             >
               MEET YOUR AGENT
             </span>
           </div>
         </div>
 
-        <div class="mb-24 bg-gray-50">
+        <div class="mb-24 bg-white">
           <div class="max-w-6xl px-4 mx-auto sm:px-6 xl:px-8">
             <div class="xl:grid xl:grid-cols-2 xl:gap-4">
               <div
@@ -408,204 +380,26 @@
           </div>
         </div>
 
-        <div id="areas-served" class="relative">
-          <div class="absolute inset-0 flex items-center" aria-hidden="true">
-            <div class="w-full border-t border-gray-300"></div>
-          </div>
-          <div class="relative flex justify-center">
-            <span
-              class="px-2 font-serif text-3xl text-gray-900 text-shadow-sm bg-gray-50"
-            >
-              AREAS SERVED
-            </span>
-          </div>
-        </div>
-
-        <div
-          class="relative flex flex-col items-center justify-center mx-auto my-12 shadow-2xl max-w-7xl sm:overflow-hidden"
-        >
-          <div class="absolute inset-0">
-            <img
-              class="object-cover w-full h-full"
-              src="~/assets/img/downtown-champaign.jpg"
-              alt="Downtown Champaign"
-            />
-            <div
-              class="absolute inset-0 bg-gray-400"
-              style="mix-blend-mode: multiply"
-            ></div>
-          </div>
-          <div class="relative px-4 py-16 sm:px-6 sm:py-24 xl:py-48 xl:px-8">
-            <h1
-              class="text-3xl font-semibold tracking-tight text-center sm:text-5xl xl:text-6xl"
-            >
-              <span class="block text-white text-shadow-lg">CHAMPAIGN</span>
-              <div
-                class="max-w-sm mx-auto mt-10 sm:max-w-none sm:flex sm:justify-center"
-              >
-                <a
-                  href="#"
-                  class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
-                >
-                  LEARN MORE
-                </a>
-              </div>
-            </h1>
-          </div>
-        </div>
-
-        <div
-          class="relative flex flex-col items-center justify-center mx-auto my-12 shadow-2xl max-w-7xl sm:overflow-hidden"
-        >
-          <div class="absolute inset-0">
-            <img
-              class="object-cover w-full h-full"
-              src="https://images.unsplash.com/photo-1546896063-fb32192e205f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-              alt="Downtown Champaign"
-            />
-            <div
-              class="absolute inset-0 bg-gray-400"
-              style="mix-blend-mode: multiply"
-            ></div>
-          </div>
-          <div class="relative px-4 py-16 sm:px-6 sm:py-24 xl:py-48 xl:px-8">
-            <h1
-              class="text-3xl font-semibold tracking-tight text-center sm:text-5xl xl:text-6xl"
-            >
-              <span class="block text-white text-shadow-lg">SADORUS</span>
-              <div
-                class="max-w-sm mx-auto mt-10 sm:max-w-none sm:flex sm:justify-center"
-              >
-                <a
-                  href="#"
-                  class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
-                >
-                  LEARN MORE
-                </a>
-              </div>
-            </h1>
-          </div>
-        </div>
-
-        <div
-          class="relative flex flex-col items-center justify-center mx-auto my-12 shadow-2xl max-w-7xl sm:overflow-hidden"
-        >
-          <div class="absolute inset-0">
-            <img
-              class="object-cover object-center w-full h-full"
-              src="https://images.unsplash.com/photo-1510629326852-3f0946701bc6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80"
-              alt="Downtown Champaign"
-            />
-            <div
-              class="absolute inset-0 bg-gray-400"
-              style="mix-blend-mode: multiply"
-            ></div>
-          </div>
-          <div class="relative px-4 py-16 sm:px-6 sm:py-24 xl:py-48 xl:px-8">
-            <h1
-              class="text-3xl font-semibold tracking-tight text-center sm:text-5xl xl:text-6xl"
-            >
-              <span class="block text-white text-shadow-lg">URBANA</span>
-              <div
-                class="max-w-sm mx-auto mt-10 sm:max-w-none sm:flex sm:justify-center"
-              >
-                <a
-                  href="#"
-                  class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
-                >
-                  LEARN MORE
-                </a>
-              </div>
-            </h1>
-          </div>
-        </div>
-
-        <div
-          class="relative flex flex-col items-center justify-center mx-auto my-12 shadow-2xl max-w-7xl sm:overflow-hidden"
-        >
-          <div class="absolute inset-0">
-            <img
-              class="object-cover object-center w-full h-full"
-              src="https://images.unsplash.com/photo-1604285137078-0b2f54e09abd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1913&q=80"
-              alt="Downtown Champaign"
-            />
-            <div
-              class="absolute inset-0 bg-gray-400"
-              style="mix-blend-mode: multiply"
-            ></div>
-          </div>
-          <div class="relative px-4 py-16 sm:px-6 sm:py-24 xl:py-48 xl:px-8">
-            <h1
-              class="text-3xl font-semibold tracking-tight text-center sm:text-5xl xl:text-6xl"
-            >
-              <span class="block text-white text-shadow-lg">TOLONO</span>
-              <div
-                class="max-w-sm mx-auto mt-10 sm:max-w-none sm:flex sm:justify-center"
-              >
-                <a
-                  href="#"
-                  class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
-                >
-                  LEARN MORE
-                </a>
-              </div>
-            </h1>
-          </div>
-        </div>
-
-        <div
-          class="relative flex flex-col items-center justify-center mx-auto my-12 mb-20 shadow-2xl max-w-7xl sm:overflow-hidden"
-        >
-          <div class="absolute inset-0">
-            <img
-              class="object-cover object-center w-full h-full"
-              src="https://lh3.googleusercontent.com/pw/ACtC-3dwUdCXOY2yugu0hqU7tZdobslyF23FrXhA099V-OHK_7EQOZuQZh6bgt8CTppBJ75VNGHDpkEFUdQrengOjYttCVXSh-5hqnOAB4v-5JViNr6aqQXz_mbqac7GyHbT48fz1IfNqjXYIopzTZ6NCYw8jw=s1360-no?authuser=0"
-              alt="Downtown Champaign"
-            />
-            <div
-              class="absolute inset-0 bg-gray-400"
-              style="mix-blend-mode: multiply"
-            ></div>
-          </div>
-          <div class="relative px-4 py-16 sm:px-6 sm:py-24 xl:py-48 xl:px-8">
-            <h1
-              class="text-3xl font-semibold tracking-tight text-center sm:text-5xl xl:text-6xl"
-            >
-              <span class="block text-white text-shadow-lg">MONTICELLO</span>
-              <div
-                class="max-w-sm mx-auto mt-10 sm:max-w-none sm:flex sm:justify-center"
-              >
-                <a
-                  href="#"
-                  class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
-                >
-                  LEARN MORE
-                </a>
-              </div>
-            </h1>
-          </div>
-        </div>
-
         <div id="contact" class="relative">
           <div class="absolute inset-0 flex items-center" aria-hidden="true">
             <div class="w-full border-t border-gray-300"></div>
           </div>
           <div class="relative flex justify-center">
             <span
-              class="px-2 font-serif text-3xl text-gray-900 text-shadow-sm bg-gray-50"
+              class="px-2 font-serif text-3xl text-gray-900 bg-white text-shadow-sm"
             >
               GET IN TOUCH
             </span>
           </div>
         </div>
 
-        <div class="relative bg-gray-50">
+        <div class="relative bg-white">
           <div class="absolute inset-0">
-            <div class="absolute inset-y-0 left-0 w-1/2 bg-gray-50"></div>
+            <div class="absolute inset-y-0 left-0 w-1/2 bg-white"></div>
           </div>
           <div class="relative mx-auto max-w-7xl xl:grid xl:grid-cols-5">
             <div
-              class="px-4 py-16 bg-gray-50 sm:px-6 xl:col-span-2 xl:px-8 xl:py-24 xl:pr-12"
+              class="px-4 py-16 bg-white sm:px-6 xl:col-span-2 xl:px-8 xl:py-24 xl:pr-12"
             >
               <div class="max-w-lg mx-auto">
                 <p
@@ -680,7 +474,7 @@
               </div>
             </div>
             <div
-              class="px-4 py-16 bg-gray-50 sm:px-6 xl:col-span-3 xl:py-24 xl:px-8 xl:pl-12"
+              class="px-4 py-16 bg-white sm:px-6 xl:col-span-3 xl:py-24 xl:px-8 xl:pl-12"
             >
               <div class="max-w-lg mx-auto xl:max-w-none">
                 <form action="#" method="POST" class="grid grid-cols-1 gap-y-6">
@@ -742,7 +536,7 @@
         </div>
       </main>
     </div>
-    <footer class="bg-white border-t border-gray-200">
+    <footer class="bg-white border-t border-gray-300">
       <div
         class="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:flex md:items-center md:justify-between xl:px-8"
       >
