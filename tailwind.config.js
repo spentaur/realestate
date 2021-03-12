@@ -7,11 +7,13 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        serif: ['Cinzel', ...defaultTheme.fontFamily.serif],
+        slogan: ['Lato', ...defaultTheme.fontFamily.sans],
       },
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require('tailwindcss-textshadow')],
 }

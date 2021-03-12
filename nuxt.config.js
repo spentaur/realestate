@@ -62,6 +62,12 @@ export default {
   googleFonts: {
     families: {
       Inter: true,
+      Cinzel: {
+        wght: [200, 300, 400, 500, 600, 700, 800, 900],
+      },
+      Lato: {
+        wght: [200, 300, 400, 500, 600, 700, 800, 900],
+      },
     },
   },
 }
