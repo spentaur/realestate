@@ -368,7 +368,7 @@
           </div>
           <div class="relative flex justify-center">
             <span
-              class="px-2 font-serif text-4xl text-gray-900 text-shadow-sm bg-gray-50"
+              class="px-2 font-serif text-3xl text-gray-900 text-shadow-sm bg-gray-50"
             >
               MEET YOUR AGENT
             </span>
@@ -414,7 +414,7 @@
           </div>
           <div class="relative flex justify-center">
             <span
-              class="px-2 font-serif text-4xl text-gray-900 text-shadow-sm bg-gray-50"
+              class="px-2 font-serif text-3xl text-gray-900 text-shadow-sm bg-gray-50"
             >
               AREAS SERVED
             </span>
@@ -592,7 +592,7 @@
           </div>
           <div class="relative flex justify-center">
             <span
-              class="px-2 font-serif text-4xl text-gray-900 text-shadow-sm bg-gray-50"
+              class="px-2 font-serif text-3xl text-gray-900 text-shadow-sm bg-gray-50"
             >
               GET IN TOUCH
             </span>
