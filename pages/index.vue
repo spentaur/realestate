@@ -66,12 +66,12 @@
             </div>
             <div class="items-center justify-center hidden ml-8 lg:flex">
               <button
-                class="px-3 py-1 mr-2 font-semibold text-gray-900 border-2 border-gray-900 hover:bg-black hover:text-white hover:border-black text-shadow"
+                class="px-3 py-1 mr-2 text-sm font-semibold text-gray-900 border-2 border-gray-900 hover:bg-black hover:text-white hover:border-black text-shadow"
               >
                 BUY
               </button>
               <button
-                class="px-3 py-1 font-semibold text-gray-900 border-2 border-gray-900 hover:bg-black hover:text-white hover:border-black text-shadow"
+                class="px-3 py-1 text-sm font-semibold text-gray-900 border-2 border-gray-900 hover:bg-black hover:text-white hover:border-black text-shadow"
               >
                 SELL
               </button>
