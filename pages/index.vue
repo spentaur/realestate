@@ -275,7 +275,7 @@
 
     <div class="flex-grow py-4">
       <main>
-        <div>
+        <div class="mb-24">
           <!-- Hero card -->
           <div class="relative">
             <div class="mx-auto max-w-screen-4xl">
@@ -334,19 +334,29 @@
           </div>
         </div>
 
-        <div id="about-me" class="bg-gray-50">
-          <div class="px-4 py-16 mx-auto sm:py-28 max-w-7xl sm:px-6 lg:px-8">
-            <div
-              class="shadow-2xl bg-indigo-50 rounded-2xl lg:grid lg:grid-cols-2 lg:gap-4"
+        <div class="relative">
+          <div class="absolute inset-0 flex items-center" aria-hidden="true">
+            <div class="w-full border-t border-gray-300"></div>
+          </div>
+          <div class="relative flex justify-center">
+            <span
+              class="px-2 font-serif text-4xl text-gray-900 text-shadow-sm bg-gray-50"
             >
+              MEET YOUR AGENT
+            </span>
+          </div>
+        </div>
+
+        <div id="about-me" class="mb-24 bg-gray-50">
+          <div class="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-4">
               <div
-                class="px-6 pt-10 pb-12 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
+                class="px-6 pt-10 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
               >
                 <div class="lg:self-center">
-                  <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-                    <span class="block">Meet Your Agent</span>
-                  </h2>
-                  <p class="mt-4 text-lg leading-6 text-gray-700">
+                  <p
+                    class="mt-4 text-lg font-medium leading-6 text-gray-700 font-slogan"
+                  >
                     Hi! My name is Spencer Adams! I'm a Real Estate Agent
                     working at Team Gordon at Remax Choice out of Champaign, IL.
                     I grew up in Boston and moved to Champaign in 2004 when my
@@ -359,9 +369,9 @@
                   </p>
                 </div>
               </div>
-              <div class="-mt-6">
+              <div class="flex items-center">
                 <img
-                  class="object-cover object-left-top transform translate-x-6 translate-y-6 rounded-full sm:translate-x-32 lg:translate-y-20"
+                  class="object-cover object-left-top rounded-full"
                   src="~/assets/img/me.png"
                   alt="App screenshot"
                 />
