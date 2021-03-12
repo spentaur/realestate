@@ -20,5 +20,9 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [require('tailwindcss-textshadow')],
+  plugins: [
+    require('tailwindcss-textshadow'),
+    require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/forms'),
+  ],
 }
