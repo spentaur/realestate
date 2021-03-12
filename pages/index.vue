@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col min-h-screen antialiased bg-gray-50">
     <nav class="bg-gray-50">
-      <div class="px-4 pt-6 pb-3 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div class="px-4 pt-6 pb-3 mx-auto max-w-7xl sm:px-6 xl:px-8">
         <div class="flex justify-between">
           <div class="flex flex-grow">
             <div class="flex flex-col justify-center flex-shrink-0">
@@ -15,7 +15,7 @@
               >
                 <div>REAL ESTATE</div>
               </div>
-              <div class="hidden text-lg tracking-wider lg:flex font-slogan">
+              <div class="hidden text-lg tracking-wider xl:flex font-slogan">
                 <a
                   class="text-blue-400 hover:underline"
                   href="https://teamgordon.net"
@@ -25,7 +25,7 @@
               </div>
             </div>
             <div
-              class="items-center justify-center flex-grow hidden sm:-my-px sm:ml-6 lg:flex sm:space-x-8"
+              class="items-center justify-center flex-grow hidden sm:-my-px sm:ml-6 xl:flex sm:space-x-8"
             >
               <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
 
@@ -51,14 +51,21 @@
               </a>
 
               <a
-                href="#"
+                href="#contact"
                 class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700"
               >
                 FREE CONSULTATION
               </a>
+
+              <a
+                href="#"
+                class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700"
+              >
+                BLOG
+              </a>
             </div>
             <div
-              class="items-center justify-center flex-grow hidden ml-8 lg:flex"
+              class="items-center justify-center flex-grow hidden ml-8 xl:flex"
             >
               <a
                 href="https://instagram.com/spenceradams.realestate"
@@ -78,7 +85,7 @@
                 </svg>
               </a>
             </div>
-            <div class="items-center justify-center hidden ml-8 lg:flex">
+            <div class="items-center justify-center hidden ml-8 xl:flex">
               <button
                 class="px-3 py-1 mr-2 text-sm font-semibold text-gray-900 border-2 border-gray-900 hover:bg-black hover:text-white hover:border-black text-shadow"
               >
@@ -91,7 +98,7 @@
               </button>
             </div>
           </div>
-          <div class="flex items-center -mr-2 lg:hidden">
+          <div class="flex items-center -mr-2 xl:hidden">
             <!-- Mobile menu button -->
             <button
               type="button"
@@ -147,7 +154,7 @@
       </div>
 
       <!-- Mobile menu, show/hide based on menu state. -->
-      <div id="mobile-menu" :class="{ hidden: !opened }" class="lg:hidden">
+      <div id="mobile-menu" :class="{ hidden: !opened }" class="xl:hidden">
         <div class="pb-3 space-y-1">
           <a
             class="block py-2 pl-3 pr-4 text-base font-medium text-blue-400 border-l-4 border-transparent hover:text-blue-600 hover:bg-gray-50 hover:border-gray-300"
@@ -220,7 +227,7 @@
           </a>
 
           <a
-            href="#"
+            href="#contact"
             class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800"
           >
             <svg
@@ -238,6 +245,27 @@
               />
             </svg>
             Free Consultation
+          </a>
+
+          <a
+            href="#"
+            class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              class="w-4 h-4 mr-4"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
+              />
+            </svg>
+            Blog
           </a>
           <a
             href="https://instagram.com/spenceradams.realestate"
@@ -275,7 +303,7 @@
 
     <div class="flex-grow py-4">
       <main>
-        <div class="mb-24">
+        <div class="mb-12">
           <!-- Hero card -->
           <div class="relative">
             <div class="mx-auto max-w-screen-4xl">
@@ -294,10 +322,10 @@
                   ></div>
                 </div>
                 <div
-                  class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8"
+                  class="relative px-4 py-16 sm:px-6 sm:py-24 xl:py-32 xl:px-8"
                 >
                   <h1
-                    class="text-3xl font-semibold tracking-tight text-center sm:text-5xl lg:text-6xl"
+                    class="text-3xl font-semibold tracking-tight text-center sm:text-5xl xl:text-6xl"
                   >
                     <span class="block text-white text-shadow-lg"
                       >BRINGING YOU HOME</span
@@ -316,13 +344,13 @@
                     >
                       <a
                         href="#"
-                        class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white rounded-md shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
+                        class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
                       >
                         BUY
                       </a>
                       <a
                         href="#"
-                        class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white rounded-md shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
+                        class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
                       >
                         SELL
                       </a>
@@ -348,17 +376,17 @@
         </div>
 
         <div class="mb-24 bg-gray-50">
-          <div class="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
-            <div class="lg:grid lg:grid-cols-2 lg:gap-4">
+          <div class="max-w-6xl px-4 mx-auto sm:px-6 xl:px-8">
+            <div class="xl:grid xl:grid-cols-2 xl:gap-4">
               <div
-                class="px-6 pt-10 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
+                class="px-6 pt-10 sm:pt-16 sm:px-16 xl:pr-0 xl:py-20 xl:px-20"
               >
-                <div class="lg:self-center">
+                <div class="xl:self-center">
                   <p
                     class="mt-4 text-lg font-medium leading-6 text-gray-700 font-slogan"
                   >
                     Hi! My name is Spencer Adams! I'm a Real Estate Agent
-                    working at Team Gordon at Remax Choice out of Champaign, IL.
+                    working on Team Gordon at Remax Choice out of Champaign, IL.
                     I grew up in Boston and moved to Champaign in 2004 when my
                     family decided we should be closer to our grandparents. My
                     parents allowed me to be pretty involved in that process and
@@ -394,7 +422,7 @@
         </div>
 
         <div
-          class="relative flex flex-col items-center justify-center mx-auto my-20 shadow-2xl rounded-2xl max-w-7xl sm:overflow-hidden"
+          class="relative flex flex-col items-center justify-center mx-auto my-12 shadow-2xl max-w-7xl sm:overflow-hidden"
         >
           <div class="absolute inset-0">
             <img
@@ -407,9 +435,9 @@
               style="mix-blend-mode: multiply"
             ></div>
           </div>
-          <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-48 lg:px-8">
+          <div class="relative px-4 py-16 sm:px-6 sm:py-24 xl:py-48 xl:px-8">
             <h1
-              class="text-3xl font-semibold tracking-tight text-center sm:text-5xl lg:text-6xl"
+              class="text-3xl font-semibold tracking-tight text-center sm:text-5xl xl:text-6xl"
             >
               <span class="block text-white text-shadow-lg">CHAMPAIGN</span>
               <div
@@ -417,7 +445,7 @@
               >
                 <a
                   href="#"
-                  class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white rounded-md shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
+                  class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
                 >
                   LEARN MORE
                 </a>
@@ -427,7 +455,7 @@
         </div>
 
         <div
-          class="relative flex flex-col items-center justify-center mx-auto my-20 shadow-2xl rounded-2xl max-w-7xl sm:overflow-hidden"
+          class="relative flex flex-col items-center justify-center mx-auto my-12 shadow-2xl max-w-7xl sm:overflow-hidden"
         >
           <div class="absolute inset-0">
             <img
@@ -440,9 +468,9 @@
               style="mix-blend-mode: multiply"
             ></div>
           </div>
-          <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-48 lg:px-8">
+          <div class="relative px-4 py-16 sm:px-6 sm:py-24 xl:py-48 xl:px-8">
             <h1
-              class="text-3xl font-semibold tracking-tight text-center sm:text-5xl lg:text-6xl"
+              class="text-3xl font-semibold tracking-tight text-center sm:text-5xl xl:text-6xl"
             >
               <span class="block text-white text-shadow-lg">SADORUS</span>
               <div
@@ -450,7 +478,7 @@
               >
                 <a
                   href="#"
-                  class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white rounded-md shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
+                  class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
                 >
                   LEARN MORE
                 </a>
@@ -460,7 +488,7 @@
         </div>
 
         <div
-          class="relative flex flex-col items-center justify-center mx-auto my-20 shadow-2xl rounded-2xl max-w-7xl sm:overflow-hidden"
+          class="relative flex flex-col items-center justify-center mx-auto my-12 shadow-2xl max-w-7xl sm:overflow-hidden"
         >
           <div class="absolute inset-0">
             <img
@@ -473,9 +501,9 @@
               style="mix-blend-mode: multiply"
             ></div>
           </div>
-          <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-48 lg:px-8">
+          <div class="relative px-4 py-16 sm:px-6 sm:py-24 xl:py-48 xl:px-8">
             <h1
-              class="text-3xl font-semibold tracking-tight text-center sm:text-5xl lg:text-6xl"
+              class="text-3xl font-semibold tracking-tight text-center sm:text-5xl xl:text-6xl"
             >
               <span class="block text-white text-shadow-lg">URBANA</span>
               <div
@@ -483,7 +511,7 @@
               >
                 <a
                   href="#"
-                  class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white rounded-md shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
+                  class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
                 >
                   LEARN MORE
                 </a>
@@ -493,7 +521,7 @@
         </div>
 
         <div
-          class="relative flex flex-col items-center justify-center mx-auto my-20 shadow-2xl rounded-2xl max-w-7xl sm:overflow-hidden"
+          class="relative flex flex-col items-center justify-center mx-auto my-12 shadow-2xl max-w-7xl sm:overflow-hidden"
         >
           <div class="absolute inset-0">
             <img
@@ -506,9 +534,9 @@
               style="mix-blend-mode: multiply"
             ></div>
           </div>
-          <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-48 lg:px-8">
+          <div class="relative px-4 py-16 sm:px-6 sm:py-24 xl:py-48 xl:px-8">
             <h1
-              class="text-3xl font-semibold tracking-tight text-center sm:text-5xl lg:text-6xl"
+              class="text-3xl font-semibold tracking-tight text-center sm:text-5xl xl:text-6xl"
             >
               <span class="block text-white text-shadow-lg">TOLONO</span>
               <div
@@ -516,7 +544,7 @@
               >
                 <a
                   href="#"
-                  class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white rounded-md shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
+                  class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
                 >
                   LEARN MORE
                 </a>
@@ -526,7 +554,7 @@
         </div>
 
         <div
-          class="relative flex flex-col items-center justify-center mx-auto my-20 shadow-2xl rounded-2xl max-w-7xl sm:overflow-hidden"
+          class="relative flex flex-col items-center justify-center mx-auto my-12 mb-20 shadow-2xl max-w-7xl sm:overflow-hidden"
         >
           <div class="absolute inset-0">
             <img
@@ -539,9 +567,9 @@
               style="mix-blend-mode: multiply"
             ></div>
           </div>
-          <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-48 lg:px-8">
+          <div class="relative px-4 py-16 sm:px-6 sm:py-24 xl:py-48 xl:px-8">
             <h1
-              class="text-3xl font-semibold tracking-tight text-center sm:text-5xl lg:text-6xl"
+              class="text-3xl font-semibold tracking-tight text-center sm:text-5xl xl:text-6xl"
             >
               <span class="block text-white text-shadow-lg">MONTICELLO</span>
               <div
@@ -549,7 +577,7 @@
               >
                 <a
                   href="#"
-                  class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white rounded-md shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
+                  class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
                 >
                   LEARN MORE
                 </a>
@@ -575,9 +603,9 @@
           <div class="absolute inset-0">
             <div class="absolute inset-y-0 left-0 w-1/2 bg-gray-50"></div>
           </div>
-          <div class="relative mx-auto max-w-7xl lg:grid lg:grid-cols-5">
+          <div class="relative mx-auto max-w-7xl xl:grid xl:grid-cols-5">
             <div
-              class="px-4 py-16 bg-gray-50 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12"
+              class="px-4 py-16 bg-gray-50 sm:px-6 xl:col-span-2 xl:px-8 xl:py-24 xl:pr-12"
             >
               <div class="max-w-lg mx-auto">
                 <p
@@ -652,9 +680,9 @@
               </div>
             </div>
             <div
-              class="px-4 py-16 bg-gray-50 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12"
+              class="px-4 py-16 bg-gray-50 sm:px-6 xl:col-span-3 xl:py-24 xl:px-8 xl:pl-12"
             >
-              <div class="max-w-lg mx-auto lg:max-w-none">
+              <div class="max-w-lg mx-auto xl:max-w-none">
                 <form action="#" method="POST" class="grid grid-cols-1 gap-y-6">
                   <div>
                     <label for="full_name" class="sr-only">Full name</label>
@@ -663,7 +691,7 @@
                       type="text"
                       name="full_name"
                       autocomplete="name"
-                      class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+                      class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
                       placeholder="Full name"
                     />
                   </div>
@@ -674,7 +702,7 @@
                       name="email"
                       type="email"
                       autocomplete="email"
-                      class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+                      class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
                       placeholder="Email"
                     />
                   </div>
@@ -685,7 +713,7 @@
                       type="text"
                       name="phone"
                       autocomplete="tel"
-                      class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+                      class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
                       placeholder="Phone"
                     />
                   </div>
@@ -695,14 +723,14 @@
                       id="message"
                       name="message"
                       rows="4"
-                      class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+                      class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
                       placeholder="Message"
                     ></textarea>
                   </div>
                   <div>
                     <button
                       type="submit"
-                      class="inline-flex justify-center px-6 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                      class="inline-flex justify-center px-6 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                     >
                       Submit
                     </button>
@@ -714,28 +742,12 @@
         </div>
       </main>
     </div>
-    <footer class="bg-red-600">
+    <footer class="bg-white border-t border-gray-200">
       <div
-        class="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:flex md:items-center md:justify-between lg:px-8"
+        class="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:flex md:items-center md:justify-between xl:px-8"
       >
         <div class="flex justify-center space-x-6 md:order-2">
-          <a href="#" class="text-white hover:text-gray-500">
-            <span class="sr-only">Facebook</span>
-            <svg
-              class="w-6 h-6"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-              aria-hidden="true"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-                clip-rule="evenodd"
-              />
-            </svg>
-          </a>
-
-          <a href="#" class="text-white hover:text-gray-500">
+          <a href="#" class="text-gray-600 hover:text-gray-500">
             <span class="sr-only">Instagram</span>
             <svg
               class="w-6 h-6"
@@ -752,7 +764,13 @@
           </a>
         </div>
         <div class="mt-8 md:mt-0 md:order-1">
-          <p class="text-base text-center text-white">
+          <p class="text-base text-center text-gray-500">
+            Made with ❤️ by
+            <a href="https://spentaur.com" class="underline">spentaur</a>
+          </p>
+        </div>
+        <div class="mt-8 md:mt-0 md:order-1">
+          <p class="text-base text-center text-gray-500">
             &copy; 2020 Spencer Adams. All rights reserved.
           </p>
         </div>
