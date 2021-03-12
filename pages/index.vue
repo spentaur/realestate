@@ -15,7 +15,7 @@
               >
                 <div>REAL ESTATE</div>
               </div>
-              <div class="hidden text-lg tracking-wider sm:flex font-slogan">
+              <div class="hidden text-lg tracking-wider lg:flex font-slogan">
                 <a
                   class="text-blue-400 hover:underline"
                   href="https://teamgordon.net"
@@ -59,12 +59,12 @@
 
               <a
                 href="#"
-                class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700"
+                class="items-center hidden px-1 pt-1 text-sm font-medium text-gray-900 border-b-2 border-transparent xl:inline-flex hover:border-gray-300 hover:text-gray-700"
               >
                 FREE CONSULTATION
               </a>
             </div>
-            <div class="items-center justify-center hidden lg:flex">
+            <div class="items-center justify-center hidden ml-8 lg:flex">
               <button
                 class="px-3 py-1 mr-2 font-semibold text-gray-900 border-2 border-gray-900 hover:bg-black hover:text-white hover:border-black text-shadow"
               >
