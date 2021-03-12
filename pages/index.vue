@@ -747,7 +747,10 @@
         class="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:flex md:items-center md:justify-between xl:px-8"
       >
         <div class="flex justify-center space-x-6 md:order-2">
-          <a href="#" class="text-gray-600 hover:text-gray-500">
+          <a
+            href="https://instagram.com/spenceradams.realestate"
+            class="text-gray-600 hover:text-gray-500"
+          >
             <span class="sr-only">Instagram</span>
             <svg
               class="w-6 h-6"
