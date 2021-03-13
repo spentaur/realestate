@@ -280,7 +280,7 @@
           <div class="relative">
             <div class="mx-auto max-w-screen-4xl">
               <div
-                class="relative flex flex-col items-center justify-center shadow-md banner sm:overflow-hidden"
+                class="relative flex flex-col items-center justify-center banner sm:overflow-hidden"
               >
                 <div class="absolute inset-0">
                   <img
@@ -485,7 +485,7 @@
                       type="text"
                       name="full_name"
                       autocomplete="name"
-                      class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
                       placeholder="Full name"
                     />
                   </div>
@@ -496,7 +496,7 @@
                       name="email"
                       type="email"
                       autocomplete="email"
-                      class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
                       placeholder="Email"
                     />
                   </div>
@@ -507,7 +507,7 @@
                       type="text"
                       name="phone"
                       autocomplete="tel"
-                      class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
                       placeholder="Phone"
                     />
                   </div>
@@ -517,7 +517,7 @@
                       id="message"
                       name="message"
                       rows="4"
-                      class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
                       placeholder="Message"
                     ></textarea>
                   </div>
