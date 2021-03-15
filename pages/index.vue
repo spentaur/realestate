@@ -369,7 +369,7 @@
                   </p>
                 </div>
               </div>
-              <div class="flex items-center">
+              <div class="flex items-center justify-center">
                 <img
                   class="object-cover object-left-top rounded-full"
                   src="~/assets/img/me.png"
@@ -474,7 +474,7 @@
               </div>
             </div>
             <div
-              class="px-4 py-16 bg-white sm:px-6 xl:col-span-3 xl:py-24 xl:px-8 xl:pl-12"
+              class="px-4 pb-16 bg-white sm:px-6 xl:col-span-3 xl:py-24 xl:px-8 xl:pl-12"
             >
               <div class="max-w-lg mx-auto xl:max-w-none">
                 <form action="#" method="POST" class="grid grid-cols-1 gap-y-6">
