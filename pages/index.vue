@@ -281,9 +281,9 @@
           <div class="relative">
             <div class="mx-auto max-w-screen-4xl">
               <div
-                class="relative flex flex-col items-center justify-center bg-fixed bg-center bg-no-repeat bg-cover hero h-screen-4/5"
+                class="relative flex flex-col items-center justify-center h-screen-4/5"
               >
-                <!-- <div class="absolute inset-0">
+                <div class="absolute inset-0">
                   <img
                     class="object-cover w-full h-full"
                     src="~/assets/img/champaign-city-building.jpg"
@@ -293,7 +293,7 @@
                     class="absolute inset-0 bg-gray-100"
                     style="mix-blend-mode: multiply"
                   ></div>
-                </div> -->
+                </div>
                 <div
                   class="relative px-4 py-16 sm:px-6 sm:py-24 xl:py-32 xl:px-8"
                 >
