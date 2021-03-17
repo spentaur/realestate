@@ -352,7 +352,7 @@
                 class="px-6 pt-6 sm:pt-10 sm:px-16 xl:pr-0 xl:py-16 xl:px-20"
               >
                 <div class="xl:self-center">
-                  <p class="my-4 text-lg text-gray-700 font-slogan">
+                  <p class="my-4 text-lg text-gray-600">
                     Hi! My name is Spencer Adams! I'm a Real Estate Agent
                     working on Team Gordon at Remax Choice out of Champaign, IL.
                     I grew up in Boston and moved to Champaign in 2004 when my
@@ -411,9 +411,7 @@
               class="px-4 py-16 bg-white sm:px-6 xl:col-span-2 xl:px-8 xl:py-24 xl:pr-12"
             >
               <div class="max-w-lg mx-auto">
-                <p
-                  class="mt-3 text-lg leading-6 text-gray-500 text-shadow text-slogan"
-                >
+                <p class="mt-3 text-lg text-gray-600">
                   Let's sit down and put together a plan to meet your specific
                   real estate goals
                 </p>
@@ -421,11 +419,9 @@
                   <div>
                     <dt class="sr-only">Postal address</dt>
                     <dd>
-                      <p class="font-extrabold text-slogan">Spencer Adams</p>
-                      <p class="font-extrabold text-slogan">2919 Crossing Ct</p>
-                      <p class="font-extrabold text-slogan">
-                        Champaign, IL 61822
-                      </p>
+                      <p class="font-extrabold">Spencer Adams</p>
+                      <p class="font-extrabold">2919 Crossing Ct</p>
+                      <p class="font-extrabold">Champaign, IL 61822</p>
                     </dd>
                   </div>
                   <div class="mt-8">
@@ -495,7 +491,7 @@
                       type="text"
                       name="full_name"
                       autocomplete="name"
-                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 outline-none focus:ring-blue-500 focus:border-blue-500"
+                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 rounded-none outline-none appearance-none focus:ring-blue-500 focus:border-blue-500"
                       placeholder="Full name"
                     />
                   </div>
@@ -506,7 +502,7 @@
                       name="email"
                       type="email"
                       autocomplete="email"
-                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 outline-none focus:ring-blue-500 focus:border-blue-500"
+                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 rounded-none outline-none appearance-none focus:ring-blue-500 focus:border-blue-500"
                       placeholder="Email"
                     />
                   </div>
@@ -517,7 +513,7 @@
                       type="text"
                       name="phone"
                       autocomplete="tel"
-                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 outline-none focus:ring-blue-500 focus:border-blue-500"
+                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 rounded-none outline-none appearance-none focus:ring-blue-500 focus:border-blue-500"
                       placeholder="Phone"
                     />
                   </div>
@@ -527,7 +523,7 @@
                       id="message"
                       name="message"
                       rows="4"
-                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 outline-none focus:ring-blue-500 focus:border-blue-500"
+                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 rounded-none outline-none appearance-none focus:ring-blue-500 focus:border-blue-500"
                       placeholder="Message"
                     ></textarea>
                   </div>
