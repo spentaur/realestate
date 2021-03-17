@@ -496,7 +496,7 @@
                       type="text"
                       name="full_name"
                       autocomplete="name"
-                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
+                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 outline-none focus:ring-blue-500 focus:border-blue-500"
                       placeholder="Full name"
                     />
                   </div>
@@ -507,7 +507,7 @@
                       name="email"
                       type="email"
                       autocomplete="email"
-                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
+                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 outline-none focus:ring-blue-500 focus:border-blue-500"
                       placeholder="Email"
                     />
                   </div>
@@ -518,7 +518,7 @@
                       type="text"
                       name="phone"
                       autocomplete="tel"
-                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
+                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 outline-none focus:ring-blue-500 focus:border-blue-500"
                       placeholder="Phone"
                     />
                   </div>
@@ -528,7 +528,7 @@
                       id="message"
                       name="message"
                       rows="4"
-                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
+                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 outline-none focus:ring-blue-500 focus:border-blue-500"
                       placeholder="Message"
                     ></textarea>
                   </div>
