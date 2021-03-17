@@ -370,7 +370,7 @@
                   v-observe-visibility="{
                     callback: visibilityChanged,
                     once: true,
-                    intersection: { threshold: 0.6 },
+                    intersection: { threshold: 0.4 },
                     throttle: 300,
                   }"
                   class="flex items-center justify-center h-96 w-96"
