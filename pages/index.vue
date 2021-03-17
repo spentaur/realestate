@@ -373,6 +373,7 @@
                     callback: visibilityChanged,
                     once: true,
                     intersection: { threshold: 0.6 },
+                    throttle: 300,
                   }"
                   class="flex items-center justify-center h-96 w-96"
                 >
