@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col min-h-screen antialiased bg-white">
+  <div class="flex flex-col min-h-screen antialiased bg-white font-montserrat">
     <nav class="bg-white">
       <div class="px-4 pt-6 pb-3 mx-auto max-w-7xl sm:px-6 xl:px-8">
         <div class="flex justify-between">
@@ -298,14 +298,15 @@
                   class="relative px-4 py-16 sm:px-6 sm:py-24 xl:py-32 xl:px-8"
                 >
                   <h1
-                    class="text-4xl font-semibold tracking-tight text-center sm:text-5xl xl:text-6xl"
+                    class="text-4xl font-semibold text-center sm:text-5xl xl:text-6xl"
                   >
-                    <span class="block text-white text-shadow-xl"
+                    <span
+                      class="block text-white font-montserrat text-shadow-xl"
                       >BRINGING YOU HOME</span
                     >
                   </h1>
                   <p
-                    class="max-w-lg mx-auto mt-6 text-lg font-semibold text-center text-white sm:text-2xl text-shadow-xl sm:max-w-3xl"
+                    class="max-w-lg mx-auto mt-6 text-lg font-semibold text-center text-white font-montserrat sm:text-2xl text-shadow-xl sm:max-w-3xl"
                   >
                     Your Champaign-Urbana Real Estate Expert
                   </p>
