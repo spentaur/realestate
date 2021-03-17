@@ -371,8 +371,7 @@
                   v-observe-visibility="{
                     callback: visibilityChanged,
                     once: true,
-                    intersection: { threshold: 0.6 },
-                    throttle: 300,
+                    intersection: { threshold: 0.4 },
                   }"
                   class="flex items-center justify-center h-96 w-96"
                 >
@@ -535,7 +534,7 @@
                   <div>
                     <button
                       type="submit"
-                      class="inline-flex justify-center px-5 py-2 text-base font-medium text-blue-600 border border-transparent border-blue-600 hover:bg-blue-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                      class="inline-flex justify-center px-5 py-2 text-base font-medium text-blue-500 border-2 border-transparent border-blue-400 hover:bg-blue-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                     >
                       Submit
                     </button>
