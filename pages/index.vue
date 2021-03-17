@@ -379,7 +379,7 @@
                 >
                   <transition name="slide-fade">
                     <img
-                      v-if="visible"
+                      v-show="visible"
                       class="object-cover object-left-top"
                       src="~/assets/img/me.png"
                       alt="Spencer Adams"
