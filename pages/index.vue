@@ -352,9 +352,7 @@
                 class="px-6 pt-6 sm:pt-10 sm:px-16 xl:pr-0 xl:py-16 xl:px-20"
               >
                 <div class="xl:self-center">
-                  <p
-                    class="my-4 text-lg font-medium leading-6 text-gray-700 font-slogan"
-                  >
+                  <p class="my-4 text-lg text-gray-700 font-slogan">
                     Hi! My name is Spencer Adams! I'm a Real Estate Agent
                     working on Team Gordon at Remax Choice out of Champaign, IL.
                     I grew up in Boston and moved to Champaign in 2004 when my
