@@ -11,13 +11,19 @@ export default {
       { hid: 'description', name: 'description', content: '' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script: [
+      {
+        src:
+          'https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver',
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ['~/plugins/composition-api'],
+  plugins: ['~/plugins/composition-api', '~/plugins/vue-observe-visibility'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -67,6 +73,9 @@ export default {
       },
       Lato: {
         wght: [200, 300, 400, 500, 600, 700, 800, 900],
+      },
+      Montserrat: {
+        wght: [600],
       },
     },
   },

@@ -6,53 +6,60 @@
           <div class="flex flex-grow">
             <div class="flex flex-col justify-center flex-shrink-0">
               <div
-                class="font-serif text-2xl font-medium text-gray-900 text-shadow"
+                class="font-serif text-base font-medium text-gray-600 lg:text-2xl text-shadow"
               >
-                <a href="/">Spencer Adams </a>
+                <a href="/"
+                  ><span class="text-lg lg:text-3xl">S</span>PENCER
+                  <span class="text-lg lg:text-3xl">A</span>DAMS
+                </a>
               </div>
               <div
-                class="flex text-lg font-light tracking-wider text-gray-500 font-slogan"
+                class="flex -mt-2 text-base font-light tracking-wider text-gray-600 text-shadow sm:text-lg font-slogan"
               >
                 <div>REAL ESTATE</div>
               </div>
-              <div class="hidden text-lg tracking-wider xl:flex font-slogan">
-                <a
-                  class="text-blue-400 hover:underline"
-                  href="https://teamgordon.net"
-                >
-                  Team Gordon · RE/MAX Choice
-                </a>
+            </div>
+            <div
+              class="flex items-center justify-center flex-grow text-base font-semibold tracking-wider text-gray-600 sm:text-lg items-bottom font-montserrat"
+            >
+              <div class="">
+                <img
+                  src="~/assets/img/remax-logo.svg"
+                  class="block h-4 sm:h-5"
+                  alt="Remax Logo"
+                />
+                <div class="text-sm leading-5">CHOICE</div>
               </div>
             </div>
             <div
               class="items-center justify-center flex-grow hidden sm:-my-px sm:ml-6 xl:flex sm:space-x-8"
             >
-              <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
+              <!-- Current: "border-blue-500 text-gray-600", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
 
               <a
                 href="#about-me"
-                class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700"
+                class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-600 border-b-2 border-transparent text-shadow hover:border-gray-300 hover:text-gray-700"
               >
                 ABOUT ME
               </a>
 
               <a
                 href="#contact"
-                class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700"
+                class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-600 border-b-2 border-transparent text-shadow hover:border-gray-300 hover:text-gray-700"
               >
                 CONTACT
               </a>
 
               <a
                 href="#contact"
-                class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700"
+                class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-600 border-b-2 border-transparent text-shadow hover:border-gray-300 hover:text-gray-700"
               >
                 FREE CONSULTATION
               </a>
 
               <a
                 href="#"
-                class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700"
+                class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-600 border-b-2 border-transparent text-shadow hover:border-gray-300 hover:text-gray-700"
               >
                 BLOG
               </a>
@@ -62,7 +69,7 @@
             >
               <a
                 href="https://instagram.com/spenceradams.realestate"
-                class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900 border-b-2 border-transparent hover:text-gray-700"
+                class="inline-flex items-center px-1 pt-1 text-sm text-gray-600 border-b-2 border-transparent hover:text-gray-700"
               >
                 <svg
                   class="w-6 h-6"
@@ -80,12 +87,12 @@
             </div>
             <div class="items-center justify-center hidden ml-8 xl:flex">
               <button
-                class="px-3 py-1 mr-2 text-sm font-semibold text-gray-900 border-2 border-gray-900 hover:bg-black hover:text-white hover:border-black text-shadow"
+                class="px-3 py-1 mr-2 text-sm font-semibold text-gray-600 border-2 border-gray-600 text-shadow hover:bg-black hover:text-white hover:border-black"
               >
                 BUY
               </button>
               <button
-                class="px-3 py-1 text-sm font-semibold text-gray-900 border-2 border-gray-900 hover:bg-black hover:text-white hover:border-black text-shadow"
+                class="px-3 py-1 text-sm font-semibold text-gray-600 border-2 border-gray-600 text-shadow hover:bg-black hover:text-white hover:border-black"
               >
                 SELL
               </button>
@@ -95,7 +102,7 @@
             <!-- Mobile menu button -->
             <button
               type="button"
-              class="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              class="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
               aria-controls="mobile-menu"
               aria-expanded="false"
               @click="toggle"
@@ -149,13 +156,7 @@
       <!-- Mobile menu, show/hide based on menu state. -->
       <div id="mobile-menu" :class="{ hidden: !opened }" class="xl:hidden">
         <div class="pb-3 space-y-1">
-          <a
-            class="block py-2 pl-3 pr-4 text-base font-medium text-blue-400 border-l-4 border-transparent hover:text-blue-600 hover:bg-white hover:border-gray-300"
-            href="https://teamgordon.net"
-          >
-            Team Gordon · RE/MAX Choice
-          </a>
-          <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-600 hover:bg-white hover:border-gray-300 hover:text-gray-800" -->
+          <!-- Current: "bg-blue-50 border-blue-500 text-blue-700", Default: "border-transparent text-gray-600 hover:bg-white hover:border-gray-300 hover:text-gray-800" -->
 
           <a
             href="#about-me"
@@ -280,49 +281,45 @@
           <div class="relative">
             <div class="mx-auto max-w-screen-4xl">
               <div
-                class="relative flex flex-col items-center justify-center banner sm:overflow-hidden"
+                class="relative flex flex-col items-center justify-center bg-fixed bg-center bg-no-repeat bg-cover hero h-screen-4/5"
               >
-                <div class="absolute inset-0">
+                <!-- <div class="absolute inset-0">
                   <img
                     class="object-cover w-full h-full"
-                    src="~/assets/img/downtown-champaign.jpg"
-                    alt="Downtown Champaign"
+                    src="~/assets/img/champaign-city-building.jpg"
+                    alt="Champaign City Building at Night"
                   />
                   <div
-                    class="absolute inset-0 bg-gray-400"
+                    class="absolute inset-0 bg-gray-100"
                     style="mix-blend-mode: multiply"
                   ></div>
-                </div>
+                </div> -->
                 <div
                   class="relative px-4 py-16 sm:px-6 sm:py-24 xl:py-32 xl:px-8"
                 >
                   <h1
-                    class="text-3xl font-semibold tracking-tight text-center sm:text-5xl xl:text-6xl"
+                    class="text-4xl font-semibold tracking-tight text-center sm:text-5xl xl:text-6xl"
                   >
-                    <span class="block text-white text-shadow-lg"
+                    <span class="block text-white text-shadow-xl"
                       >BRINGING YOU HOME</span
                     >
                   </h1>
                   <p
-                    class="max-w-lg mx-auto mt-6 text-lg font-semibold text-center text-white sm:text-2xl text-shadow-lg sm:max-w-3xl"
+                    class="max-w-lg mx-auto mt-6 text-lg font-semibold text-center text-white sm:text-2xl text-shadow-xl sm:max-w-3xl"
                   >
-                    Your Champaign Real Estate Expert
+                    Your Champaign-Urbana Real Estate Expert
                   </p>
-                  <div
-                    class="max-w-sm mx-auto mt-10 sm:max-w-none sm:flex sm:justify-center"
-                  >
-                    <div
-                      class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5"
-                    >
+                  <div class="flex justify-center mx-auto mt-10 max-w-none">
+                    <div class="flex space-x-4">
                       <a
                         href="#"
-                        class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
+                        class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-600 sm:px-8"
                       >
                         BUY
                       </a>
                       <a
                         href="#"
-                        class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-900 sm:px-8"
+                        class="flex items-center justify-center px-4 py-3 text-base font-bold text-white border-2 border-white shadow-sm bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-600 sm:px-8"
                       >
                         SELL
                       </a>
@@ -340,22 +337,22 @@
           </div>
           <div class="relative flex justify-center">
             <span
-              class="px-2 font-serif text-3xl text-gray-900 bg-white text-shadow-sm"
+              class="px-2 font-serif text-3xl text-gray-600 bg-white text-shadow-sm"
             >
               MEET YOUR AGENT
             </span>
           </div>
         </div>
 
-        <div class="mb-24 bg-white">
+        <div class="mb-12 bg-white">
           <div class="max-w-6xl px-4 mx-auto sm:px-6 xl:px-8">
             <div class="xl:grid xl:grid-cols-2 xl:gap-4">
               <div
-                class="px-6 pt-10 sm:pt-16 sm:px-16 xl:pr-0 xl:py-20 xl:px-20"
+                class="px-6 pt-6 sm:pt-10 sm:px-16 xl:pr-0 xl:py-16 xl:px-20"
               >
                 <div class="xl:self-center">
                   <p
-                    class="mt-4 text-lg font-medium leading-6 text-gray-700 font-slogan"
+                    class="my-4 text-lg font-medium leading-6 text-gray-700 font-slogan"
                   >
                     Hi! My name is Spencer Adams! I'm a Real Estate Agent
                     working on Team Gordon at Remax Choice out of Champaign, IL.
@@ -370,11 +367,24 @@
                 </div>
               </div>
               <div class="flex items-center justify-center">
-                <img
-                  class="object-cover object-left-top rounded-full"
-                  src="~/assets/img/me.png"
-                  alt="App screenshot"
-                />
+                <div
+                  v-observe-visibility="{
+                    callback: visibilityChanged,
+                    once: true,
+                    intersection: { threshold: 0.6 },
+                    throttle: 300,
+                  }"
+                  class="flex items-center justify-center h-96 w-96"
+                >
+                  <transition name="slide-fade">
+                    <img
+                      v-if="visible"
+                      class="object-cover object-left-top"
+                      src="~/assets/img/me.png"
+                      alt="Spencer Adams"
+                    />
+                  </transition>
+                </div>
               </div>
             </div>
           </div>
@@ -386,7 +396,7 @@
           </div>
           <div class="relative flex justify-center">
             <span
-              class="px-2 font-serif text-3xl text-gray-900 bg-white text-shadow-sm"
+              class="px-2 font-serif text-3xl text-gray-600 bg-white text-shadow-sm"
             >
               GET IN TOUCH
             </span>
@@ -408,7 +418,7 @@
                   Let's sit down and put together a plan to meet your specific
                   real estate goals
                 </p>
-                <dl class="mt-8 text-base text-gray-500">
+                <dl class="mt-8 text-lg text-gray-500">
                   <div>
                     <dt class="sr-only">Postal address</dt>
                     <dd>
@@ -419,53 +429,54 @@
                       </p>
                     </dd>
                   </div>
-                  <div class="mt-6">
+                  <div class="mt-8">
                     <dt class="sr-only">Phone number</dt>
-                    <dd class="flex">
-                      <!-- Heroicon name: outline/phone -->
-                      <svg
-                        class="flex-shrink-0 w-6 h-6 text-gray-400"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        aria-hidden="true"
+                    <dd class="">
+                      <a
+                        href="tel:+12178197311"
+                        class="inline-flex items-center px-4 py-3 text-sm font-bold leading-4 text-white bg-red-500 border border-transparent rounded-full shadow-lg hover:shadow-xl hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-700"
                       >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                        />
-                      </svg>
-                      <a href="tel:+12178197311" class="ml-3 underline"
-                        >217-819-7311</a
-                      >
+                        <svg
+                          class="-ml-0.5 mr-2 h-4 w-4"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          aria-hidden="true"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                          />
+                        </svg>
+                        217-819-7311
+                      </a>
                     </dd>
                   </div>
-                  <div class="mt-3">
+                  <div class="mt-6">
                     <dt class="sr-only">Email</dt>
-                    <dd class="flex">
-                      <!-- Heroicon name: outline/mail -->
-                      <svg
-                        class="flex-shrink-0 w-6 h-6 text-gray-400"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        aria-hidden="true"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                        />
-                      </svg>
+                    <dd class="">
                       <a
                         href="mailto:info@spenceradams.realestate"
-                        class="ml-3 underline"
+                        class="inline-flex items-center px-4 py-3 text-sm font-bold leading-4 text-white bg-red-500 border border-transparent rounded-full shadow-lg hover:shadow-xl hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-700"
                       >
+                        <svg
+                          class="-ml-0.5 mr-2 h-4 w-4"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          aria-hidden="true"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                          />
+                        </svg>
                         info@spenceradams.realestate
                       </a>
                     </dd>
@@ -485,7 +496,7 @@
                       type="text"
                       name="full_name"
                       autocomplete="name"
-                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
                       placeholder="Full name"
                     />
                   </div>
@@ -496,7 +507,7 @@
                       name="email"
                       type="email"
                       autocomplete="email"
-                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
                       placeholder="Email"
                     />
                   </div>
@@ -507,7 +518,7 @@
                       type="text"
                       name="phone"
                       autocomplete="tel"
-                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
                       placeholder="Phone"
                     />
                   </div>
@@ -517,14 +528,14 @@
                       id="message"
                       name="message"
                       rows="4"
-                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
                       placeholder="Message"
                     ></textarea>
                   </div>
                   <div>
                     <button
                       type="submit"
-                      class="inline-flex justify-center px-6 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                      class="inline-flex justify-center px-5 py-2 text-base font-medium text-blue-600 border border-transparent border-blue-600 hover:bg-blue-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                     >
                       Submit
                     </button>
@@ -540,35 +551,22 @@
       <div
         class="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:flex md:items-center md:justify-between xl:px-8"
       >
-        <div class="flex justify-center space-x-6 md:order-2">
-          <a
-            href="https://instagram.com/spenceradams.realestate"
-            class="text-gray-600 hover:text-gray-500"
-          >
-            <span class="sr-only">Instagram</span>
-            <svg
-              class="w-6 h-6"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-              aria-hidden="true"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
-                clip-rule="evenodd"
-              />
-            </svg>
-          </a>
-        </div>
-        <div class="mt-8 md:mt-0 md:order-1">
-          <p class="text-base text-center text-gray-500">
+        <div class="flex flex-col items-start mt-8 md:mt-0 md:order-1">
+          <p class="text-sm text-gray-400">
             Made with ❤️ by
             <a href="https://spentaur.com" class="underline">spentaur</a>
           </p>
-        </div>
-        <div class="mt-8 md:mt-0 md:order-1">
-          <p class="text-base text-center text-gray-500">
-            &copy; 2020 Spencer Adams. All rights reserved.
+          <p class="text-sm text-gray-400">
+            &copy; 2021 Spencer Adams. All rights reserved.
+          </p>
+          <p class="mt-3 text-sm text-gray-400">
+            Image Of Champaign City Building: © jordan bennett
+          </p>
+          <p class="text-sm text-gray-400">
+            <a href="http://www.city-data.com/picfilesv/picv35888.php">
+              http://www.city-data.com/picfilesv/picv35888.php
+            </a>
+            / CC-BY-SA-3.0
           </p>
         </div>
       </div>
@@ -582,13 +580,28 @@ import { defineComponent, ref } from '@vue/composition-api'
 export default defineComponent({
   setup() {
     const opened = ref(false)
+    const visible = ref(false)
 
     const toggle = () => (opened.value = !opened.value)
 
+    const visibilityChanged = (isVisible: boolean) => {
+      if (isVisible) {
+        visible.value = true
+      }
+    }
+
     return {
+      visibilityChanged,
+      visible,
       opened,
       toggle,
     }
   },
 })
 </script>
+
+<style lang="postcss" scoped>
+.hero {
+  background-image: url('~/assets/img/champaign-city-building.jpg');
+}
+</style>

@@ -7,6 +7,8 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        arial: ['Arial', ...defaultTheme.fontFamily.sans],
+        montserrat: ['Montserrat', ...defaultTheme.fontFamily.sans],
         serif: ['Cinzel', ...defaultTheme.fontFamily.serif],
         slogan: ['Lato', ...defaultTheme.fontFamily.sans],
       },
@@ -14,6 +16,12 @@ module.exports = {
         'screen-3xl': '1792px',
         'screen-4xl': '2048px',
         'screen-5xl': '2304px',
+      },
+      height: {
+        'screen-4/5': '80vh',
+      },
+      backgroundImage: {
+        spencer: "url('~/assets/img/me.png')",
       },
     },
   },
