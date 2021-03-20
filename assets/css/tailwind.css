@@ -9,8 +9,9 @@
 
 /* Enter and leave animations can use different */
 /* durations and timing functions.              */
-.slide-left-fade-enter-active, .slide-right-fade-enter-active {
-  transition: all .3s ease;
+.slide-left-fade-enter-active,
+.slide-right-fade-enter-active {
+  transition: all 0.3s ease;
 }
 
 .slide-left-fade-enter

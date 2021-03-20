@@ -1,5 +1,19 @@
 <template>
   <div class="flex flex-col min-h-screen antialiased bg-white font-montserrat">
+    <!-- This example requires Tailwind CSS v2.0+ -->
+    <div class="relative bg-gray-600">
+      <div class="px-3 py-3 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="text-center sm:px-16">
+          <p class="font-medium text-white">
+            <span class="md:hidden">🚧 Website Under Construction 🚧</span>
+            <span class="hidden md:inline">
+              🚧 This Website is Under Construction 🚧
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+
     <nav class="bg-white">
       <div class="px-4 pt-6 pb-3 mx-auto max-w-7xl sm:px-6 xl:px-8">
         <div class="flex justify-between">
