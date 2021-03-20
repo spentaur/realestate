@@ -333,7 +333,7 @@
                     <img
                       v-show="imgVisible"
                       class="object-cover object-left-top shadow-2xl"
-                      src="~/assets/img/me2.jpg"
+                      src="~/assets/img/me3.jpg"
                       alt="Spencer Adams"
                     />
                   </transition>
