@@ -332,8 +332,8 @@
                   <transition name="slide-left-fade">
                     <img
                       v-show="imgVisible"
-                      class="object-cover object-left-top"
-                      src="~/assets/img/me.png"
+                      class="object-cover object-left-top shadow-2xl"
+                      src="~/assets/img/me2.jpg"
                       alt="Spencer Adams"
                     />
                   </transition>
@@ -408,7 +408,7 @@
                     <dt class="sr-only">Email</dt>
                     <dd class="">
                       <a
-                        href="mailto:spencer@spenceradams.realestate"
+                        href="mailto:info@spenceradams.realestate"
                         class="inline-flex items-center font-medium tracking-wider text-gray-600 transition-all duration-200 hover:text-red-500"
                       >
                         <svg
@@ -426,7 +426,7 @@
                             d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                           />
                         </svg>
-                        spencer@spenceradams.realestate
+                        info@spenceradams.realestate
                       </a>
                     </dd>
                   </div>
