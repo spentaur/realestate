@@ -307,28 +307,8 @@
           <div class="max-w-6xl px-4 mx-auto sm:px-6 xl:px-8">
             <div class="xl:grid xl:grid-cols-2 xl:gap-4">
               <div
-                class="flex items-center justify-center px-6 pt-6 sm:pt-10 sm:px-16 xl:py-16 xl:px-20"
+                class="px-6 pt-6 sm:pt-10 sm:px-16 xl:pr-0 xl:py-16 xl:px-20"
               >
-                <div
-                  v-observe-visibility="{
-                    callback: meetYourAgentImgVisibility,
-                    once: true,
-                    intersection: { threshold: 0.4 },
-                    throttle: 300,
-                  }"
-                  class="flex items-center justify-center h-96 w-96"
-                >
-                  <transition name="slide-left-fade">
-                    <img
-                      v-show="imgVisible"
-                      class="object-cover object-left-top shadow-2xl"
-                      src="~/assets/img/me.jpg"
-                      alt="Spencer Adams"
-                    />
-                  </transition>
-                </div>
-              </div>
-              <div class="flex items-center justify-center pt-10 xl:pt-0">
                 <div
                   v-observe-visibility="{
                     callback: meetYourAgentTextVisibility,
@@ -350,6 +330,26 @@
                       move from renters to home owners and showing them all the
                       benefits that come with it!
                     </p>
+                  </transition>
+                </div>
+              </div>
+              <div class="flex items-center justify-center">
+                <div
+                  v-observe-visibility="{
+                    callback: meetYourAgentImgVisibility,
+                    once: true,
+                    intersection: { threshold: 0.4 },
+                    throttle: 300,
+                  }"
+                  class="flex items-center justify-center h-96 w-96"
+                >
+                  <transition name="slide-left-fade">
+                    <img
+                      v-show="imgVisible"
+                      class="object-cover object-left-top shadow-2xl"
+                      src="~/assets/img/me.jpg"
+                      alt="Spencer Adams"
+                    />
                   </transition>
                 </div>
               </div>
