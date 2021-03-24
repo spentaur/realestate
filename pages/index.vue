@@ -248,7 +248,7 @@
                     alt="Champaign City Building at Night"
                   />
                   <div
-                    class="absolute inset-0 bg-gray-400"
+                    class="absolute inset-0 bg-gray-300"
                     style="mix-blend-mode: multiply"
                   ></div>
                 </div>
