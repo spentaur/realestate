@@ -248,7 +248,7 @@
                     alt="Champaign City Building at Night"
                   />
                   <div
-                    class="absolute inset-0"
+                    class="absolute inset-0 bg-gray-400"
                     style="mix-blend-mode: multiply"
                   ></div>
                 </div>
@@ -543,16 +543,16 @@ import { defineComponent, ref } from '@vue/composition-api'
 export default defineComponent({
   setup() {
     const opened = ref(false)
-    const textVisible = ref(false)
-    const imgVisible = ref(false)
-
     const toggle = () => (opened.value = !opened.value)
 
+    const textVisible = ref(false)
     const meetYourAgentTextVisibility = (isVisible: boolean) => {
       if (isVisible) {
         textVisible.value = true
       }
     }
+
+    const imgVisible = ref(false)
     const meetYourAgentImgVisibility = (isVisible: boolean) => {
       if (isVisible) {
         imgVisible.value = true
