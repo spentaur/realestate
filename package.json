@@ -58,7 +58,7 @@
     "prettier": "^2.2.1",
     "stylelint": "^13.9.0",
     "stylelint-config-prettier": "^8.0.2",
-    "stylelint-config-standard": "^20.0.0",
+    "stylelint-config-standard": "^21.0.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "tailwindcss-textshadow": "^2.1.3"
   }
