@@ -34,15 +34,15 @@
               </div>
             </div>
             <div
-              class="flex items-center justify-center flex-grow text-base font-semibold tracking-wider text-gray-600 sm:text-lg items-bottom font-montserrat"
+              class="flex flex-col items-center justify-center flex-grow mt-1 text-base font-semibold tracking-wider text-gray-600 sm:mt-2 sm:ml-6 sm:text-lg items-bottom font-montserrat"
             >
-              <div class="">
+              <div>
                 <img
                   src="~/assets/img/remax-logo.svg"
-                  class="block h-4 sm:h-5"
+                  class="block h-3 sm:h-5"
                   alt="Remax Logo"
                 />
-                <div class="text-sm leading-5">Choice</div>
+                <div class="text-sm sm:text-lg">Choice</div>
               </div>
             </div>
             <div
