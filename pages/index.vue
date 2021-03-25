@@ -39,7 +39,7 @@
               <div>
                 <img
                   src="~/assets/img/remax-logo.svg"
-                  class="block h-3 sm:h-5"
+                  class="block h-4 sm:h-5"
                   alt="Remax Logo"
                 />
                 <div class="text-sm sm:text-lg">Choice</div>
