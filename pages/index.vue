@@ -42,7 +42,7 @@
                   class="block h-4 sm:h-5"
                   alt="Remax Logo"
                 />
-                <div class="text-sm leading-5">CHOICE</div>
+                <div class="text-sm leading-5">Choice</div>
               </div>
             </div>
             <div
