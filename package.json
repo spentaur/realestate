@@ -28,7 +28,7 @@
     "@nuxtjs/pwa": "^3.3.5",
     "@tailwindcss/aspect-ratio": "^0.2.0",
     "@tailwindcss/forms": "^0.2.1",
-    "@vue/composition-api": "^1.0.0-rc.5",
+    "@vue/composition-api": "^1.0.0-rc.6",
     "core-js": "^3.8.3",
     "intersection-observer": "^0.12.0",
     "nuxt": "^2.14.12",
