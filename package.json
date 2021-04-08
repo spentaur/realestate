@@ -29,7 +29,7 @@
     "@tailwindcss/aspect-ratio": "^0.2.0",
     "@tailwindcss/forms": "^0.2.1",
     "@vue/composition-api": "^1.0.0-rc.5",
-    "core-js": "^3.8.3",
+    "core-js": "^3.10.1",
     "intersection-observer": "^0.12.0",
     "nuxt": "^2.14.12",
     "vue-observe-visibility": "^1.0.0"
