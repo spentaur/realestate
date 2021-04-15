@@ -1,0 +1,23 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/spenceradams/Code/realestate/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_741d533c"
+  },
+  {
+    "name": "form",
+    "path": "/form",
+    "component": "/Users/spenceradams/Code/realestate/pages/form.vue",
+    "chunkName": "pages/form",
+    "_name": "_2d6362ff"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/spenceradams/Code/realestate/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_34ad9db2"
+  }
+]
