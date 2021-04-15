@@ -88,7 +88,7 @@
       <div
         class="flex flex-col max-w-4xl px-4 mx-auto mt-0 lg:mt-12 lg:flex-row sm:px-6 xl:px-8"
       >
-        <p class="my-4 text-xl font-medium text-gray-700">
+        <p class="my-4 text-lg font-medium text-gray-700">
           Hi! My name is Spencer Adams! I'm a Real Estate Agent working on Team
           Gordon at Remax Choice out of Champaign, IL. I grew up in Boston and
           moved to Champaign in 2004 when my family decided we should be closer

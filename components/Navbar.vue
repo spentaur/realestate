@@ -18,7 +18,7 @@
           <div class="flex flex-grow">
             <div class="flex flex-row justify-center flex-shrink-0">
               <div class="flex flex-col justify-center">
-                <nuxt-link to="/">
+                <nuxt-link to="/" @click.native="toggle">
                   <div
                     class="font-serif text-base font-medium text-gray-600 sm:text-2xl text-shadow"
                   >
@@ -47,8 +47,9 @@
               <!-- Current: "border-blue-500 text-gray-600", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
 
               <nuxt-link
-                to="/about"
                 class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-600 transition-all duration-200 border-b-2 border-transparent text-shadow hover:border-gray-300 hover:text-gray-700"
+                to="/about"
+                @click.native="toggle"
               >
                 ABOUT ME
               </nuxt-link>
@@ -167,6 +168,7 @@
           <nuxt-link
             to="/about"
             class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-white hover:border-gray-300 hover:text-gray-800"
+            @click.native="toggle"
           >
             About Me
           </nuxt-link>
