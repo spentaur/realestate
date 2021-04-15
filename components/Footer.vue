@@ -1,0 +1,26 @@
+<template>
+  <footer class="bg-white border-t border-gray-300">
+    <div
+      class="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:flex md:items-center md:justify-between xl:px-8"
+    >
+      <div class="flex flex-col items-start mt-8 md:mt-0 md:order-1">
+        <p class="text-sm text-gray-400">
+          Made with ❤️ by
+          <a href="https://spentaur.com" class="underline">spentaur</a>
+        </p>
+        <p class="text-sm text-gray-400">
+          &copy; 2021 Spencer Adams. All rights reserved.
+        </p>
+        <p class="mt-3 text-sm text-gray-400">
+          Image Of Champaign City Building: © jordan bennett
+        </p>
+        <p class="text-sm text-gray-400">
+          <a href="http://www.city-data.com/picfilesv/picv35888.php">
+            http://www.city-data.com/picfilesv/picv35888.php
+          </a>
+          / CC-BY-SA-3.0
+        </p>
+      </div>
+    </div>
+  </footer>
+</template>
