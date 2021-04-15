@@ -21,20 +21,20 @@
             <div class="flex flex-row justify-center flex-shrink-0">
               <div class="flex flex-col justify-center">
                 <div
-                  class="font-serif text-sm font-medium text-gray-600 sm:text-2xl text-shadow"
+                  class="font-serif text-base font-medium text-gray-600 sm:text-2xl text-shadow"
                 >
                   <a href="/"
-                    ><span class="text-lg sm:text-3xl">S</span>PENCER
-                    <span class="text-lg sm:text-3xl">A</span>DAMS
+                    ><span class="text-xl sm:text-3xl">S</span>PENCER
+                    <span class="text-xl sm:text-3xl">A</span>DAMS
                   </a>
                 </div>
                 <div
-                  class="flex -mt-2 text-sm font-light tracking-wider text-gray-600 text-shadow sm:text-lg font-slogan"
+                  class="flex -mt-2 text-base font-light tracking-wider text-gray-600 text-shadow sm:text-lg font-slogan"
                 >
                   <div>REAL ESTATE</div>
                 </div>
               </div>
-              <div class="flex flex-col justify-center pt-2 ml-6">
+              <div class="flex flex-col justify-center pt-2 ml-4 sm:ml-6">
                 <img
                   src="~/assets/img/remax-logo.svg"
                   class="block h-3 sm:h-4"
