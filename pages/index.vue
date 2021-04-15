@@ -252,13 +252,13 @@
                     <div class="flex space-x-4">
                       <a
                         href="#"
-                        class="flex items-center justify-center px-4 py-3 text-base font-bold text-white transition-all duration-200 border-2 border-white shadow-lg bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-600 sm:px-8"
+                        class="flex items-center justify-center px-4 py-3 text-base font-bold text-white transition-all duration-200 bg-gray-700 border-2 border-white shadow-lg bg-opacity-30 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-600 sm:px-8"
                       >
                         BUY
                       </a>
                       <a
                         href="#"
-                        class="flex items-center justify-center px-4 py-3 text-base font-bold text-white transition-all duration-200 border-2 border-white shadow-lg bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-600 sm:px-8"
+                        class="flex items-center justify-center px-4 py-3 text-base font-bold text-white transition-all duration-200 bg-gray-700 border-2 border-white shadow-lg bg-opacity-30 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-600 sm:px-8"
                       >
                         SELL
                       </a>
