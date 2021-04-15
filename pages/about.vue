@@ -17,7 +17,7 @@
         </div>
         <transition appear name="slide-right-fade">
           <div
-            class="self-center px-6 py-6 transform -translate-y-16 shadow-2xl bg-opacity-90 bg-gray-50 w-96 lg:w-auto lg:-translate-x-32"
+            class="self-center px-6 py-6 transform -translate-y-16 shadow-2xl bg-opacity-90 bg-gray-50 sm:w-96 w-80 lg:w-auto lg:-translate-x-32"
           >
             <div
               class="font-serif text-3xl font-medium text-gray-700 text-shadow"
@@ -38,7 +38,7 @@
                 <dd class="">
                   <a
                     href="tel:+12178197311"
-                    class="inline-flex items-center font-medium tracking-wider text-gray-700 transition-all duration-200 hover:text-red-500"
+                    class="inline-flex items-center text-base font-medium tracking-wider text-gray-700 transition-all duration-200 sm:text-lg hover:text-red-500"
                   >
                     <svg
                       class="-ml-0.5 mr-2 h-5 w-5"
@@ -64,7 +64,7 @@
                 <dd class="">
                   <a
                     href="mailto:info@spenceradams.realestate"
-                    class="inline-flex items-center font-medium tracking-wider text-gray-700 transition-all duration-200 hover:text-red-500"
+                    class="inline-flex items-center text-base font-medium tracking-wider text-gray-700 transition-all duration-200 sm:text-lg hover:text-red-500"
                   >
                     <svg
                       class="-ml-0.5 mr-2 h-5 w-5"

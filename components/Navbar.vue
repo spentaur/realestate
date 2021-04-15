@@ -74,6 +74,17 @@
               >
                 BLOG
               </a>
+
+              <a
+                href="https://connectmls-portal.mredllc.com"
+                class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-600 transition-all duration-200 border-b-2 border-transparent text-shadow hover:border-gray-300 hover:text-gray-700"
+              >
+                <img
+                  src="https://connectmls-portal.mredllc.com/static/media/connectmls.07c15b95.svg"
+                  class="w-24 mb-1"
+                  alt=""
+                />
+              </a>
               <a
                 href="https://instagram.com/spenceradams.realestate"
                 class="inline-flex items-center px-1 pt-1 text-sm text-gray-600 border-b-2 border-transparent hover:text-gray-700"
@@ -192,6 +203,16 @@
             class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-white hover:border-gray-300 hover:text-gray-800"
           >
             Blog
+          </a>
+          <a
+            href="https://connectmls-portal.mredllc.com"
+            class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-white hover:border-gray-300 hover:text-gray-800"
+          >
+            <img
+              src="https://connectmls-portal.mredllc.com/static/media/connectmls.07c15b95.svg"
+              class="w-24"
+              alt=""
+            />
           </a>
           <a
             href="https://instagram.com/spenceradams.realestate"
