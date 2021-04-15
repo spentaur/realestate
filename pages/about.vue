@@ -2,7 +2,7 @@
   <div>
     <div class="mt-8 mb-12 bg-white lg:mt-16">
       <div
-        class="flex flex-col items-center justify-center max-w-6xl px-4 mx-auto transform translate-x-24 lg:flex-row sm:px-6 xl:px-8"
+        class="flex flex-col items-center justify-center max-w-6xl px-4 mx-auto transform lg:translate-x-24 lg:flex-row sm:px-6 xl:px-8"
       >
         <div class="flex items-center justify-center">
           <div class="flex items-center justify-center lg:w-128 lg:h-128">
