@@ -11,15 +11,6 @@
         <p class="text-sm text-gray-400">
           &copy; 2021 Spencer Adams. All rights reserved.
         </p>
-        <p class="mt-3 text-sm text-gray-400">
-          Image Of Champaign City Building: © jordan bennett
-        </p>
-        <p class="text-sm text-gray-400">
-          <a href="http://www.city-data.com/picfilesv/picv35888.php">
-            http://www.city-data.com/picfilesv/picv35888.php
-          </a>
-          / CC-BY-SA-3.0
-        </p>
       </div>
     </div>
   </footer>
