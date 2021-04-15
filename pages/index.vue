@@ -65,13 +65,6 @@
               </a>
 
               <a
-                href="#contact"
-                class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-600 transition-all duration-200 border-b-2 border-transparent text-shadow hover:border-gray-300 hover:text-gray-700"
-              >
-                FREE CONSULTATION
-              </a>
-
-              <a
                 href="#"
                 class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-600 transition-all duration-200 border-b-2 border-transparent text-shadow hover:border-gray-300 hover:text-gray-700"
               >
@@ -187,13 +180,6 @@
           </a>
 
           <a
-            href="#contact"
-            class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-white hover:border-gray-300 hover:text-gray-800"
-          >
-            Free Consultation
-          </a>
-
-          <a
             href="#"
             class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-white hover:border-gray-300 hover:text-gray-800"
           >
@@ -244,11 +230,11 @@
                 <div class="absolute inset-0">
                   <img
                     class="object-cover w-full h-full"
-                    src="~/assets/img/champaign-city-building.jpg"
-                    alt="Champaign City Building at Night"
+                    src="~/assets/img/street.jpg"
+                    alt="Subdivision Street"
                   />
                   <div
-                    class="absolute inset-0 bg-gray-300"
+                    class="absolute inset-0 bg-blue-100"
                     style="mix-blend-mode: multiply"
                   ></div>
                 </div>
