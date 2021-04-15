@@ -1,0 +1,38 @@
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.2s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.7s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+.banner {
+  height: calc(-145px + 96vh);
+}
+
+/* Enter and leave animations can use different */
+/* durations and timing functions.              */
+.slide-left-fade-enter-active,
+.slide-right-fade-enter-active {
+  transition: all 0.3s ease;
+}
+
+.slide-left-fade-enter
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(100px);
+  opacity: 0;
+}
+.slide-right-fade-enter
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(-100px);
+  opacity: 0;
+}

@@ -19,6 +19,10 @@ module.exports = {
       },
       height: {
         'screen-4/5': '80vh',
+        128: '36rem',
+      },
+      width: {
+        128: '36rem',
       },
       backgroundImage: {
         spencer: "url('~/assets/img/me.png')",
