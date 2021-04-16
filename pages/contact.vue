@@ -13,7 +13,7 @@
                   <img
                     v-show="loaded"
                     class="object-cover w-full h-full"
-                    src="~/assets/img/closing.jpg"
+                    src="~/assets/img/shutterstock_1015072978.jpg"
                     alt="Handing Keys to Someone"
                     @load="onLoaded"
                   />
