@@ -18,7 +18,7 @@
                     alt="Subdivision Street"
                   />
                   <div
-                    class="absolute inset-0 bg-blue-50"
+                    class="absolute inset-0 bg-blue-900 bg-opacity-10"
                     style="mix-blend-mode: multiply"
                   ></div>
                 </div>
