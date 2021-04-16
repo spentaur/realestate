@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'realestate',
+    title: 'Spencer Adams Real Estate',
     htmlAttrs: {
       lang: 'en',
     },
@@ -14,13 +14,19 @@ export default {
       { hid: 'description', name: 'description', content: '' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script: [
+      {
+        src:
+          'https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver',
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['~/assets/css/main.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['~/plugins/vue-observe-visibility'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -33,6 +39,8 @@ export default {
     '@nuxtjs/stylelint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    // https://google-fonts.nuxtjs.org/setup
+    '@nuxtjs/google-fonts',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -51,4 +59,19 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  googleFonts: {
+    families: {
+      Inter: true,
+      Cinzel: {
+        wght: [200, 300, 400, 500, 600, 700, 800, 900],
+      },
+      Lato: {
+        wght: [200, 300, 400, 500, 600, 700, 800, 900],
+      },
+      Montserrat: {
+        wght: [100, 200, 300, 400, 500, 600, 700, 800, 900],
+      },
+    },
+  },
 }
