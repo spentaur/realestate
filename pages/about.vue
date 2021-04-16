@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="mt-8 mb-12 bg-white lg:mt-16">
+    <div class="mt-4 mb-12 bg-white lg:mt-8">
       <div
         class="flex flex-col items-center justify-center max-w-6xl px-4 mx-auto transform lg:translate-x-24 lg:flex-row sm:px-6 xl:px-8"
       >
@@ -105,12 +105,12 @@
       <div
         class="flex justify-center max-w-2xl px-4 mx-auto mt-12 sm:px-6 xl:px-8"
       >
-        <a
-          href="#"
+        <nuxt-link
+          to="/contact"
           class="flex items-center justify-center px-4 py-3 text-xl font-medium text-red-400 transition-all duration-200 bg-white border-2 border-red-400 hover:text-white hover:bg-red-500 sm:px-8"
         >
           Contact Me
-        </a>
+        </nuxt-link>
       </div>
     </div>
   </div>

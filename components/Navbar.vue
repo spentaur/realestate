@@ -54,12 +54,12 @@
                 ABOUT ME
               </nuxt-link>
 
-              <a
-                href="#contact"
+              <nuxt-link
+                to="/contact"
                 class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-600 transition-all duration-200 border-b-2 border-transparent text-shadow hover:border-gray-300 hover:text-gray-700"
               >
                 CONTACT
-              </a>
+              </nuxt-link>
 
               <a
                 href="#"
@@ -192,12 +192,12 @@
             About Me
           </nuxt-link>
 
-          <a
-            href="#contact"
+          <nuxt-link
+            to="/contact"
             class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-white hover:border-gray-300 hover:text-gray-800"
           >
             Contact
-          </a>
+          </nuxt-link>
 
           <a
             href="#contact"

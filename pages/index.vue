@@ -262,6 +262,23 @@
                     />
                   </div>
                   <div>
+                    <label for="reason" class="sr-only">Type of Contact</label>
+                    <select
+                      id="reason"
+                      name="reason"
+                      class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 rounded-none outline-none appearance-none focus:ring-blue-500 focus:border-blue-500"
+                    >
+                      <option value="" disabled selected>
+                        What is your reason for contacting?
+                      </option>
+                      <option>I am a buyer</option>
+                      <option>I am a seller</option>
+                      <option>I am an investor</option>
+                      <option>I am looking for more information</option>
+                      <option>I am contacting you for another reason</option>
+                    </select>
+                  </div>
+                  <div>
                     <label for="message" class="sr-only">Message</label>
                     <textarea
                       id="message"

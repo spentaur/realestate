@@ -35,7 +35,7 @@
           <div
             v-show="opened"
             ref="modal"
-            class="inline-block px-4 pt-5 pb-4 overflow-hidden text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl outline-none appearance-none sm:my-8 sm:align-middle sm:max-w-sm sm:w-full sm:p-6"
+            class="inline-block px-4 pt-5 pb-4 overflow-hidden text-left align-bottom transition-all transform bg-white shadow-xl outline-none appearance-none sm:my-8 sm:align-middle sm:max-w-sm sm:w-full sm:p-6"
             @keydown.esc="close"
           >
             <div>
@@ -61,7 +61,7 @@
                 v-for="button in data.buttons"
                 :key="button.text"
                 :href="button.link"
-                class="inline-flex justify-center w-full px-4 py-2 text-base font-medium text-indigo-600 border border-transparent border-indigo-600 rounded-md shadow-sm appearance-none hover:bg-indigo-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm"
+                class="inline-flex justify-center w-full px-4 py-2 text-base font-semibold text-blue-600 border-2 border-transparent border-blue-600 shadow-sm appearance-none hover:bg-blue-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm"
               >
                 {{ button.text }}
               </a>
