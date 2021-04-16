@@ -12,11 +12,15 @@
                 class="relative flex flex-col items-center justify-center h-screen-4/5"
               >
                 <div class="absolute inset-0">
-                  <img
-                    class="object-cover w-full h-full"
-                    src="~/assets/img/street.jpg"
-                    alt="Subdivision Street"
-                  />
+                  <transition name="fade">
+                    <img
+                      v-show="loaded"
+                      class="object-cover w-full h-full"
+                      src="~/assets/img/street.jpg"
+                      alt="Subdivision Street"
+                      @load="onLoaded"
+                    />
+                  </transition>
                   <div
                     class="absolute inset-0 bg-blue-900 bg-opacity-10"
                     style="mix-blend-mode: multiply"
@@ -290,8 +294,12 @@ export default {
   data: () => ({
     textVisible: false,
     imgVisible: false,
+    loaded: false,
   }),
   methods: {
+    onLoaded() {
+      this.loaded = true
+    },
     meetYourAgentTextVisibility(isVisible) {
       if (isVisible) {
         this.textVisible = true
