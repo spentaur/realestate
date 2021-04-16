@@ -62,10 +62,17 @@
               </a>
 
               <a
-                href="#contact"
+                href="#"
                 class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-600 transition-all duration-200 border-b-2 border-transparent text-shadow hover:border-gray-300 hover:text-gray-700"
               >
                 FAQ
+              </a>
+
+              <a
+                href="#"
+                class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-600 transition-all duration-200 border-b-2 border-transparent text-shadow hover:border-gray-300 hover:text-gray-700"
+              >
+                GUIDES
               </a>
 
               <a
@@ -78,6 +85,7 @@
               <a
                 href="https://connectmls-portal.mredllc.com"
                 class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-600 transition-all duration-200 border-b-2 border-transparent text-shadow hover:border-gray-300 hover:text-gray-700"
+                @click.prevent="openConnectMLSModal"
               >
                 <img
                   src="https://connectmls-portal.mredllc.com/static/media/connectmls.07c15b95.svg"
@@ -202,11 +210,19 @@
             href="#"
             class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-white hover:border-gray-300 hover:text-gray-800"
           >
+            Guides
+          </a>
+
+          <a
+            href="#"
+            class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-white hover:border-gray-300 hover:text-gray-800"
+          >
             Blog
           </a>
           <a
             href="https://connectmls-portal.mredllc.com"
             class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-white hover:border-gray-300 hover:text-gray-800"
+            @click.prevent="openConnectMLSModal"
           >
             <img
               src="https://connectmls-portal.mredllc.com/static/media/connectmls.07c15b95.svg"
@@ -249,22 +265,39 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent, ref } from '@vue/composition-api'
-
-export default defineComponent({
-  setup() {
-    const opened = ref(false)
-    const toggle = () => (opened.value = !opened.value)
-    const close = () => (opened.value = false)
-
-    return {
-      opened,
-      toggle,
-      close,
-    }
+<script>
+export default {
+  data: () => ({
+    opened: false,
+  }),
+  methods: {
+    close() {
+      this.opened = false
+    },
+    toggle() {
+      this.opened = !this.opened
+    },
+    openConnectMLSModal() {
+      this.$store.commit('modal/open', {
+        logo:
+          'https://connectmls-portal.mredllc.com/static/media/connectmls.07c15b95.svg',
+        title: 'You are about to navigate to the connectMLS Client Portal',
+        text:
+          'If you want to learn more about how to use the connectMLS Client Portal, please check out my guides by clicking below.',
+        buttons: [
+          {
+            text: 'Guides',
+            link: '/guides/connectMLS',
+          },
+          {
+            text: 'connectMLS',
+            link: 'https://connectmls-portal.mredllc.com/login',
+          },
+        ],
+      })
+    },
   },
-})
+}
 </script>
 
 <style lang="postcss" scoped>

@@ -13,15 +13,17 @@
               >
                 <div class="absolute inset-0">
                   <transition appear name="fade">
-                    <img
-                      class="object-cover w-full h-full"
-                      src="~/assets/img/street.jpg"
-                      alt="Subdivision Street"
-                    />
-                    <div
-                      class="absolute inset-0 bg-blue-100"
-                      style="mix-blend-mode: multiply"
-                    ></div>
+                    <span>
+                      <img
+                        class="object-cover w-full h-full"
+                        src="~/assets/img/street.jpg"
+                        alt="Subdivision Street"
+                      />
+                      <div
+                        class="absolute inset-0 bg-blue-50"
+                        style="mix-blend-mode: multiply"
+                      ></div>
+                    </span>
                   </transition>
                 </div>
                 <div
@@ -44,13 +46,13 @@
                     <div class="flex space-x-4">
                       <a
                         href="#"
-                        class="flex items-center justify-center px-4 py-3 text-base font-bold text-white transition-all duration-200 bg-gray-700 border-2 border-white shadow-lg bg-opacity-30 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-600 sm:px-8"
+                        class="flex items-center justify-center px-4 py-3 text-lg font-bold text-white transition-all duration-200 bg-blue-300 border-2 border-white shadow-lg bg-opacity-30 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-600 sm:px-8"
                       >
                         BUY
                       </a>
                       <a
                         href="#"
-                        class="flex items-center justify-center px-4 py-3 text-base font-bold text-white transition-all duration-200 bg-gray-700 border-2 border-white shadow-lg bg-opacity-30 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-600 sm:px-8"
+                        class="flex items-center justify-center px-4 py-3 text-lg font-bold text-white transition-all duration-200 bg-blue-300 border-2 border-white shadow-lg bg-opacity-30 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-600 sm:px-8"
                       >
                         SELL
                       </a>
@@ -287,31 +289,23 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent, ref } from '@vue/composition-api'
-
-export default defineComponent({
-  setup() {
-    const textVisible = ref(false)
-    const meetYourAgentTextVisibility = (isVisible: boolean) => {
+<script>
+export default {
+  data: () => ({
+    textVisible: false,
+    imgVisible: false,
+  }),
+  methods: {
+    meetYourAgentTextVisibility(isVisible) {
       if (isVisible) {
-        textVisible.value = true
+        this.textVisible = true
       }
-    }
-
-    const imgVisible = ref(false)
-    const meetYourAgentImgVisibility = (isVisible: boolean) => {
+    },
+    meetYourAgentImgVisibility(isVisible) {
       if (isVisible) {
-        imgVisible.value = true
+        this.imgVisible = true
       }
-    }
-
-    return {
-      meetYourAgentTextVisibility,
-      meetYourAgentImgVisibility,
-      textVisible,
-      imgVisible,
-    }
+    },
   },
-})
+}
 </script>
