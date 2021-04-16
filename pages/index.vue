@@ -12,19 +12,15 @@
                 class="relative flex flex-col items-center justify-center h-screen-4/5"
               >
                 <div class="absolute inset-0">
-                  <transition appear name="fade">
-                    <span>
-                      <img
-                        class="object-cover w-full h-full"
-                        src="~/assets/img/street.jpg"
-                        alt="Subdivision Street"
-                      />
-                      <div
-                        class="absolute inset-0 bg-blue-50"
-                        style="mix-blend-mode: multiply"
-                      ></div>
-                    </span>
-                  </transition>
+                  <img
+                    class="object-cover w-full h-full"
+                    src="~/assets/img/street.jpg"
+                    alt="Subdivision Street"
+                  />
+                  <div
+                    class="absolute inset-0 bg-blue-50"
+                    style="mix-blend-mode: multiply"
+                  ></div>
                 </div>
                 <div
                   class="relative px-4 py-16 sm:px-6 sm:py-24 xl:py-32 xl:px-8"
