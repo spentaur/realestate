@@ -14,7 +14,7 @@
                     v-show="loaded"
                     class="object-cover w-full h-full"
                     src="~/assets/img/keys.jpg"
-                    alt="Haning Keys to Someone"
+                    alt="Handing Keys to Someone"
                     @load="onLoaded"
                   />
                 </transition>
