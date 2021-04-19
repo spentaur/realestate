@@ -26,7 +26,7 @@ export default {
   css: ['~/assets/css/main.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ['~/plugins/vue-observe-visibility'],
+  plugins: ['~/plugins/vue-observe-visibility', '~/plugins/vue-click-outside'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

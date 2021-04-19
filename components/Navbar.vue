@@ -60,7 +60,7 @@
                 CONTACT
               </nuxt-link>
 
-              <a
+              <!-- <a
                 href="#"
                 class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-600 transition-all duration-200 border-b-2 border-transparent text-shadow hover:border-gray-300 hover:text-gray-700"
               >
@@ -72,7 +72,82 @@
                 class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-600 transition-all duration-200 border-b-2 border-transparent text-shadow hover:border-gray-300 hover:text-gray-700"
               >
                 GUIDES
-              </a>
+              </a> -->
+              <div class="relative inline-block text-left">
+                <div>
+                  <button
+                    v-click-outside="closeTools"
+                    type="button"
+                    aria-expanded="true"
+                    aria-haspopup="true"
+                    class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-600 transition-all duration-200 border-b-2 border-transparent text-shadow hover:border-gray-300 hover:text-gray-700"
+                    @click="toggleTools()"
+                  >
+                    TOOLS
+
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-3 h-3 ml-2"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </button>
+                </div>
+
+                <transition
+                  enter-active-class="transition duration-100 ease-out"
+                  enter-class="transform scale-95 opacity-0"
+                  enter-to-class="transform scale-100 opacity-100"
+                  leave-active-class="transition duration-75 ease-in"
+                  leave-class="transform scale-100 opacity-100"
+                  leave-to-class="transform scale-95 opacity-0"
+                >
+                  <div
+                    v-if="showTools"
+                    class="absolute right-0 z-10 w-56 mt-2 origin-top-right bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                    role="menu"
+                    aria-orientation="vertical"
+                    aria-labelledby="menu-button"
+                    tabindex="-1"
+                  >
+                    <div class="py-1" role="none">
+                      <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
+                      <a
+                        id="menu-item-0"
+                        href="#"
+                        class="block px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100"
+                        role="menuitem"
+                        tabindex="-1"
+                        >Guides</a
+                      >
+                      <a
+                        id="menu-item-1"
+                        href="#"
+                        class="block px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100"
+                        role="menuitem"
+                        tabindex="-1"
+                        >Calculators</a
+                      >
+                      <a
+                        id="menu-item-2"
+                        href="#"
+                        class="block px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100"
+                        role="menuitem"
+                        tabindex="-1"
+                        >Graphs</a
+                      >
+                    </div>
+                  </div>
+                </transition>
+              </div>
 
               <a
                 href="#"
@@ -196,21 +271,61 @@
           >
             Contact
           </nuxt-link>
+          <div class="border-l-4 border-transparent hover:border-gray-300">
+            <div>
+              <button
+                type="button"
+                aria-expanded="true"
+                aria-haspopup="true"
+                class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:bg-white hover:text-gray-800"
+                @click="toggleMobileTools()"
+              >
+                Tools
 
-          <a
-            href="#contact"
-            class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-white hover:border-gray-300 hover:text-gray-800"
-          >
-            Calaculators
-          </a>
-
-          <a
-            href="#"
-            class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-white hover:border-gray-300 hover:text-gray-800"
-          >
-            Guides
-          </a>
-
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 ml-2"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div v-show="showMobileTools" class="px-2 py-1" role="none">
+              <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
+              <a
+                id="menu-item-0"
+                href="#"
+                class="block px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100"
+                role="menuitem"
+                tabindex="-1"
+                >Guides</a
+              >
+              <a
+                id="menu-item-1"
+                href="#"
+                class="block px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100"
+                role="menuitem"
+                tabindex="-1"
+                >Calculators</a
+              >
+              <a
+                id="menu-item-2"
+                href="#"
+                class="block px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100"
+                role="menuitem"
+                tabindex="-1"
+                >Graphs</a
+              >
+            </div>
+          </div>
           <a
             href="#"
             class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-white hover:border-gray-300 hover:text-gray-800"
@@ -267,6 +382,8 @@
 export default {
   data: () => ({
     opened: false,
+    showTools: false,
+    showMobileTools: false,
   }),
   watch: {
     $route(to, from) {
@@ -274,6 +391,15 @@ export default {
     },
   },
   methods: {
+    toggleTools() {
+      this.showTools = !this.showTools
+    },
+    toggleMobileTools() {
+      this.showMobileTools = !this.showMobileTools
+    },
+    closeTools() {
+      this.showTools = false
+    },
     close() {
       this.opened = false
     },
