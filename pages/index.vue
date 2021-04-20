@@ -22,7 +22,7 @@
                     />
                   </transition>
                   <div
-                    class="absolute inset-0 bg-blue-900 bg-opacity-10"
+                    class="absolute inset-0 bg-blue-100 bg-opacity-10"
                     style="mix-blend-mode: multiply"
                   ></div>
                 </div>
@@ -46,13 +46,13 @@
                     <div class="flex space-x-4">
                       <a
                         href="#"
-                        class="flex items-center justify-center px-4 py-3 text-lg font-bold text-white transition-all duration-200 bg-blue-500 border-2 border-white shadow-lg bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-600 sm:px-8"
+                        class="flex items-center justify-center px-4 py-3 text-lg font-bold text-white transition-all duration-200 bg-blue-100 border-2 border-white shadow-lg bg-opacity-5 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-600 sm:px-8"
                       >
                         BUY
                       </a>
                       <a
                         href="#"
-                        class="flex items-center justify-center px-4 py-3 text-lg font-bold text-white transition-all duration-200 bg-blue-500 border-2 border-white shadow-lg bg-opacity-10 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-600 sm:px-8"
+                        class="flex items-center justify-center px-4 py-3 text-lg font-bold text-white transition-all duration-200 bg-blue-100 border-2 border-white shadow-lg bg-opacity-5 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-600 sm:px-8"
                       >
                         SELL
                       </a>
