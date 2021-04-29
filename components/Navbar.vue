@@ -179,11 +179,12 @@
               </a>
             </div>
             <div class="items-center justify-center hidden ml-8 xl:flex">
-              <button
+              <nuxt-link
+                to="/buy"
                 class="px-3 py-1 mr-2 text-sm font-semibold text-gray-600 transition-all duration-200 border-2 border-gray-600 text-shadow hover:bg-black hover:text-white hover:border-black"
               >
                 BUY
-              </button>
+              </nuxt-link>
               <button
                 class="px-3 py-1 text-sm font-semibold text-gray-600 transition-all duration-200 border-2 border-gray-600 text-shadow hover:bg-black hover:text-white hover:border-black"
               >
@@ -348,11 +349,12 @@
             </svg>
           </a>
           <div class="flex items-center pt-6 pb-2 pl-3 pr-4">
-            <button
+            <nuxt-link
+              to="/buy"
               class="flex-grow px-3 py-1 mr-2 text-base font-semibold text-gray-600 transition-all duration-200 border-2 border-gray-600 hover:text-gray-800 hover:border-gray-800 text-shadow"
             >
               BUY
-            </button>
+            </nuxt-link>
             <button
               class="flex-grow px-3 py-1 text-base font-semibold text-gray-600 transition-all duration-200 border-2 border-gray-600 hover:text-gray-800 hover:border-gray-800 text-shadow"
             >
