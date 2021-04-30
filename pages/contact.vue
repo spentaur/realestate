@@ -24,13 +24,16 @@
                 ></div>
               </div>
               <div
-                class="relative px-4 py-16 sm:px-6 sm:py-24 xl:py-32 xl:px-8"
+                class="relative px-4 py-16 sm:px-6 sm:py-24 xl:py-32 xl:px-16"
               >
-                <h1 class="text-4xl font-semibold sm:text-5xl xl:text-6xl">
-                  <span class="block text-white font-montserrat text-shadow-xl"
-                    >CONTACT</span
-                  >
-                </h1>
+                <transition appear name="slide-right-fade">
+                  <h1 class="text-4xl font-semibold sm:text-5xl xl:text-6xl">
+                    <span
+                      class="block text-white font-montserrat text-shadow-xl"
+                      >CONTACT</span
+                    >
+                  </h1>
+                </transition>
               </div>
             </div>
           </div>
