@@ -44,12 +44,12 @@
                   </p>
                   <div class="flex justify-center mx-auto mt-10 max-w-none">
                     <div class="flex space-x-4">
-                      <a
-                        href="#"
+                      <nuxt-link
+                        to="/buy"
                         class="flex items-center justify-center px-4 py-3 text-lg font-bold text-white transition-all duration-200 bg-blue-100 border-2 border-white shadow-lg bg-opacity-5 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-600 sm:px-8"
                       >
                         BUY
-                      </a>
+                      </nuxt-link>
                       <a
                         href="#"
                         class="flex items-center justify-center px-4 py-3 text-lg font-bold text-white transition-all duration-200 bg-blue-100 border-2 border-white shadow-lg bg-opacity-5 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-600 sm:px-8"
