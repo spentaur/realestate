@@ -1,112 +1,78 @@
 <template>
-  <div>
-    <div class="mt-4 mb-12 bg-white">
-      <div class="">
-        <!-- Hero card -->
-        <div class="relative">
-          <div class="mx-auto max-w-screen-4xl">
-            <div
-              class="relative flex flex-col items-start justify-center h-screen-2/5"
+  <div class="flex flex-col bg-white">
+    <div class="p-2 sm:p-3">
+      <div class="flex flex-wrap items-center justify-end">
+        <div class="flex-shrink-0 order-2 sm:order-3 sm:ml-2">
+          <button
+            type="button"
+            class="flex p-2 -mr-1 focus:outline-none focus:ring-2 focus:ring-white"
+            @click.prevent="close"
+          >
+            <span class="sr-only">Dismiss</span>
+            <!-- Heroicon name: outline/x -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-6 h-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
             >
-              <div class="absolute inset-0">
-                <transition name="fade">
-                  <img
-                    v-show="loaded"
-                    class="object-cover w-full h-full"
-                    src="~/assets/img/keys2.jpg"
-                    alt="Handing Keys to Someone"
-                    @load="onLoaded"
-                  />
-                </transition>
-                <div
-                  class="absolute inset-0 bg-gray-900 bg-opacity-25"
-                  style="mix-blend-mode: multiply"
-                ></div>
-              </div>
-              <div
-                class="relative w-full px-4 py-16 text-center sm:px-6 sm:py-24 xl:py-32 xl:px-8"
-              >
-                <transition appear name="slide-up-fade">
-                  <h1 class="text-4xl font-semibold sm:text-5xl xl:text-6xl">
-                    <span
-                      class="block text-white font-montserrat text-shadow-xl"
-                      >THINKING OF BUYING?</span
-                    >
-                  </h1>
-                </transition>
-              </div>
-            </div>
-          </div>
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
         </div>
       </div>
-      <div
-        class="flex flex-col max-w-6xl px-4 mx-auto lg:flex-row sm:px-6 xl:px-8"
-      >
-        <div class="w-full max-w-3xl mx-auto my-14">
-          <form action="#" method="POST" class="grid grid-cols-1 gap-y-6">
-            <div>
-              <label for="full_name" class="sr-only">Full name</label>
-              <input
-                id="full_name"
-                type="text"
-                name="full_name"
-                autocomplete="name"
-                class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 rounded-none outline-none appearance-none focus:ring-blue-500 focus:border-blue-500"
-                placeholder="Full name"
-              />
-            </div>
-            <div>
-              <label for="email" class="sr-only">Email</label>
-              <input
-                id="email"
-                name="email"
-                type="email"
-                autocomplete="email"
-                class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 rounded-none outline-none appearance-none focus:ring-blue-500 focus:border-blue-500"
-                placeholder="Email"
-              />
-            </div>
-            <div>
-              <label for="phone" class="sr-only">Phone</label>
-              <input
-                id="phone"
-                type="text"
-                name="phone"
-                autocomplete="tel"
-                class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 rounded-none outline-none appearance-none focus:ring-blue-500 focus:border-blue-500"
-                placeholder="Phone"
-              />
-            </div>
-            <div>
-              <label for="school" class="sr-only"
-                >Do you have a preffered school distric?
-              </label>
-              <input
-                id="school"
-                type="text"
-                name="school"
-                class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 rounded-none outline-none appearance-none focus:ring-blue-500 focus:border-blue-500"
-              />
-            </div>
-            <div>
-              <label for="message" class="sr-only">Message</label>
-              <textarea
-                id="message"
-                name="message"
-                rows="4"
-                class="block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 rounded-none outline-none appearance-none focus:ring-blue-500 focus:border-blue-500"
-                placeholder="Message"
-              ></textarea>
-            </div>
-            <div>
-              <button
-                type="submit"
-                class="inline-flex justify-center px-5 py-2 text-base font-medium text-blue-400 transition-all duration-200 border border-transparent border-gray-300 hover:border-blue-700 hover:bg-blue-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+    </div>
+    <div
+      class="flex flex-col items-center justify-center flex-grow p-6 mx-auto text-lg leading-normal text-gray-600 md:text-2xl lg:text-4xl text-shadow max-w-7xl font-slogan"
+    >
+      <p>
+        As your real estate broker, it is important for me to know as much as
+        possible about you, your family, and your housing needs.
+      </p>
+      <p class="mt-4">
+        Please complete this in as much detail as possible in order for us to
+        get started on the search for your new home.
+      </p>
+    </div>
+    <div class="px-2 py-12 sm:px-3">
+      <div class="flex flex-wrap items-center justify-center">
+        <div class="flex items-center justify-center flex-1 w-0">
+          <span class="flex p-2">
+            <!-- <button
+              type="button"
+              class="inline-flex items-center px-4 py-2 text-base font-medium text-indigo-700 bg-indigo-100 border border-transparent rounded-md hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
               >
-                SUBMIT
-              </button>
-            </div>
-          </form>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 19l-7-7 7-7"
+                />
+              </svg>
+              Button text
+              
+            </button> -->
+          </span>
+          <span class="flex p-2">
+            <button
+              type="button"
+              class="inline-flex items-center px-4 py-2 text-base font-medium text-indigo-700 bg-indigo-100 border border-transparent rounded-md hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            >
+              Continue
+            </button>
+          </span>
         </div>
       </div>
     </div>
@@ -115,12 +81,20 @@
 
 <script>
 export default {
+  layout: 'forms',
   data: () => ({
     loaded: false,
   }),
   methods: {
     onLoaded() {
       this.loaded = true
+    },
+    close() {
+      if (!this.$nuxt.context.from) {
+        this.$router.push('/')
+      } else {
+        this.$router.go(-1)
+      }
     },
   },
 }

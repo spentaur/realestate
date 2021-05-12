@@ -320,6 +320,18 @@
               >
             </div>
           </div>
+          <nuxt-link
+            to="/buy"
+            class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-white hover:border-gray-300 hover:text-gray-800"
+          >
+            Buy
+          </nuxt-link>
+          <nuxt-link
+            to="/buy"
+            class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-white hover:border-gray-300 hover:text-gray-800"
+          >
+            Sell
+          </nuxt-link>
           <a
             href="https://connectmls-portal.mredllc.com"
             class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-white hover:border-gray-300 hover:text-gray-800"
@@ -348,19 +360,6 @@
               />
             </svg>
           </a>
-          <div class="flex items-center pt-6 pb-2 pl-3 pr-4">
-            <nuxt-link
-              to="/buy"
-              class="flex-grow px-3 py-1 mr-2 text-base font-semibold text-gray-600 transition-all duration-200 border-2 border-gray-600 no-active hover:text-gray-800 hover:border-gray-800 text-shadow"
-            >
-              BUY
-            </nuxt-link>
-            <button
-              class="flex-grow px-3 py-1 text-base font-semibold text-gray-600 transition-all duration-200 border-2 border-gray-600 no-active hover:text-gray-800 hover:border-gray-800 text-shadow"
-            >
-              SELL
-            </button>
-          </div>
         </div>
       </div>
     </nav>

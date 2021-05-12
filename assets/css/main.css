@@ -15,6 +15,24 @@
   opacity: 0;
 }
 
+.layout-enter-active,
+.layout-leave-active {
+  @apply transition;
+  @apply duration-300;
+  @apply ease-in-out;
+  @apply transform;
+}
+.layout-enter,
+.layout-leave-active {
+  @apply transition;
+  @apply duration-500;
+  @apply ease-in-out;
+  @apply transform;
+  @apply scale-75;
+  @apply -translate-y-1;
+  @apply opacity-0;
+}
+
 .banner {
   height: calc(-145px + 96vh);
 }
