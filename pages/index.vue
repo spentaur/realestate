@@ -46,16 +46,16 @@
                     <div class="flex space-x-4">
                       <nuxt-link
                         to="/buy"
-                        class="flex items-center justify-center px-4 py-3 text-lg font-bold text-white transition-all duration-200 bg-blue-100 border-2 border-white shadow-lg bg-opacity-5 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-600 sm:px-8"
+                        class="flex items-center justify-center px-4 py-3 text-lg font-bold text-gray-600 transition-all duration-200 bg-white shadow-lg hover:bg-opacity-100 bg-opacity-80 sm:px-8"
                       >
                         BUY
                       </nuxt-link>
-                      <a
-                        href="#"
-                        class="flex items-center justify-center px-4 py-3 text-lg font-bold text-white transition-all duration-200 bg-blue-100 border-2 border-white shadow-lg bg-opacity-5 hover:text-shadow-none text-shadow-md hover:bg-white hover:text-gray-600 sm:px-8"
+                      <nuxt-link
+                        to="/buy"
+                        class="flex items-center justify-center px-4 py-3 text-lg font-bold text-gray-600 transition-all duration-200 bg-white shadow-lg hover:bg-opacity-100 bg-opacity-80 sm:px-8"
                       >
                         SELL
-                      </a>
+                      </nuxt-link>
                     </div>
                   </div>
                 </div>
