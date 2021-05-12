@@ -181,12 +181,12 @@
             <div class="items-center justify-center hidden ml-8 xl:flex">
               <nuxt-link
                 to="/buy"
-                class="px-3 py-1 mr-2 text-sm font-semibold text-gray-600 transition-all duration-200 border-2 border-gray-600 no-active text-shadow hover:bg-black hover:text-white hover:border-black"
+                class="px-3 py-1 mr-2 text-sm font-semibold text-gray-600 transition-all duration-200 border-2 border-gray-600 no-active text-shadow hover:bg-gray-800 hover:text-white hover:border-gray-800"
               >
                 BUY
               </nuxt-link>
               <button
-                class="px-3 py-1 text-sm font-semibold text-gray-600 transition-all duration-200 border-2 border-gray-600 no-active text-shadow hover:bg-black hover:text-white hover:border-black"
+                class="px-3 py-1 text-sm font-semibold text-gray-600 transition-all duration-200 border-2 border-gray-600 no-active text-shadow hover:bg-gray-800 hover:text-white hover:border-gray-800"
               >
                 SELL
               </button>

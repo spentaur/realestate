@@ -18,14 +18,14 @@
 .layout-enter-active,
 .layout-leave-active {
   @apply transition;
-  @apply duration-300;
+  @apply duration-200;
   @apply ease-in-out;
   @apply transform;
 }
 .layout-enter,
 .layout-leave-active {
   @apply transition;
-  @apply duration-500;
+  @apply duration-300;
   @apply ease-in-out;
   @apply transform;
   @apply scale-75;
