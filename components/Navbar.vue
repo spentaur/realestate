@@ -161,7 +161,7 @@
                 />
               </a>
               <a
-                href="https://instagram.com/spenceradams.realestate"
+                href="https://www.instagram.com/spenceradams.realestate/"
                 class="inline-flex items-center px-1 pt-1 text-sm text-gray-600 border-b-2 border-transparent hover:text-gray-700"
               >
                 <svg
@@ -344,7 +344,7 @@
             />
           </a>
           <a
-            href="https://instagram.com/spenceradams.realestate"
+            href="https://www.instagram.com/spenceradams.realestate/"
             class="flex items-center py-2 pl-3 pr-4 text-base font-medium text-gray-600 border-l-4 border-transparent hover:bg-white hover:border-gray-300 hover:text-gray-800"
           >
             <svg
