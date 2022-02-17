@@ -124,7 +124,7 @@
                     <img
                       v-show="imgVisible"
                       class="object-cover object-left-top shadow-2xl"
-                      src="~/assets/img/me.jpg"
+                      src="~/assets/img/me circle.png"
                       alt="Spencer Adams"
                     />
                   </transition>
