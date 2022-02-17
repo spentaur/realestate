@@ -8,7 +8,7 @@
           <div class="flex items-center justify-center lg:w-128 lg:h-128">
             <transition appear name="fade">
               <img
-                class="object-cover object-left-top shadow-2xl"
+                class="object-cover object-left-top"
                 src="~/assets/img/me-circle.png"
                 alt="Spencer Adams"
               />
