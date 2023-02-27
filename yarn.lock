@@ -1055,10 +1055,10 @@
   dependencies:
     purgecss "^3.1.3"
 
-"@headlessui/vue@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@headlessui/vue/-/vue-1.0.0.tgz#e1c736f78eeaea29b93671d8d6fbdb400159650c"
-  integrity sha512-TPIe/7j9/J5wpXk+VfxGj49alSgUPdCCg9alApps3aqEpdFSbtJfXbNpQsMJIAnimZENxAK/AneCcvI9dpLKbg==
+"@headlessui/vue@^1.7.11":
+  version "1.7.11"
+  resolved "https://registry.yarnpkg.com/@headlessui/vue/-/vue-1.7.11.tgz#e8d9d09be8c30bb9808ebd75038ce9bcb4bfd00e"
+  integrity sha512-VsNqx9Lc1ftOyIazBF9EX5BS4WYwwaFX+1jBWXQakeH1o4xnoZKlBSlvEgmAnFLO9GDVmn7kKVOWfFgQn2aRZA==
 
 "@heroicons/vue@^1.0.1":
   version "1.0.1"
